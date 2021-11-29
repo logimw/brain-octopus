@@ -1,0 +1,4 @@
+@mixin grid-container {
+  display: grid;
+  grid-template-columns: 1.8rem [full-start] 1fr [container-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [container-end] 1fr [full-end] 1.8rem;
+}

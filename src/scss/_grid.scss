@@ -1,0 +1,5 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1.5rem [full-start] minmax(3rem,1fr) [container-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [container-end] minmax(3rem, 1fr) [full-end] 1.5rem;
+}
