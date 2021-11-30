@@ -1,4 +1,4 @@
-15891
+15892
 68D:\Repos\Mateuszex\brain-octopus\node_modules\range-parser\README.md132826967782805791 0
 88D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\modules\es.object.lookup-getter.js132826967865298711 0
 68D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-values132826967799836062 1
@@ -35,14 +35,14 @@
 60D:\Repos\Mateuszex\brain-octopus\node_modules\is-binary-path132826973585949750 1
 57D:\Repos\Mateuszex\brain-octopus\node_modules\request\lib132826967815037387 1
 66D:\Repos\Mateuszex\brain-octopus\node_modules\brorand\package.json132826967778828058 0
-37D:\Repos\Mateuszex\brain-octopus\dist132827019392391993 1
+37D:\Repos\Mateuszex\brain-octopus\dist132827825342629703 1
 74D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\util.d.ts132826967839313543 0
 94D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\node-resolver-core\test\fixture\packages132826967844370686 1
 67D:\Repos\Mateuszex\brain-octopus\node_modules\querystring\decode.js132826967781146719 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\react-refresh\runtime.js132826967803493990 0
 72D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2015\Invoke.js132826967864089403 0
 75D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\uri.js.map132826967831647919 0
-43D:\Repos\Mateuszex\brain-octopus\.gitignore132649656124945433 0
+43D:\Repos\Mateuszex\brain-octopus\.gitignore132827020567407256 0
 79D:\Repos\Mateuszex\brain-octopus\node_modules\svgo\plugins\removeUselessDefs.js132826967842611664 0
 68D:\Repos\Mateuszex\brain-octopus\node_modules\sha.js\test\vectors.js132826967816546547 0
 88D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\internals\string-pad-webkit-bug.js132826967894452091 0
@@ -77,7 +77,7 @@
 65D:\Repos\Mateuszex\brain-octopus\node_modules\.bin\sshpk-conv.cmd132826967897890115 0
 68D:\Repos\Mateuszex\brain-octopus\node_modules\available-typed-arrays132826967807201858 1
 65D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\fp\divide.js132826967865268744 0
-38D:\Repos\Mateuszex\brain-octopus\.idea132827019392082178 1
+38D:\Repos\Mateuszex\brain-octopus\.idea132827825342020157 1
 63D:\Repos\Mateuszex\brain-octopus\node_modules\js-tokens\LICENSE132826967788592484 0
 73D:\Repos\Mateuszex\brain-octopus\node_modules\@babel\helpers\package.json132826967815147328 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\is-fullwidth-code-point132826967790671293 1
@@ -130,7 +130,7 @@
 66D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\fp\forEach.js132826967868586841 0
 49D:\Repos\Mateuszex\brain-octopus\node_modules\has132826967790711272 1
 83D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-normalize-string\CHANGELOG.md132826967789332055 0
-36D:\Repos\Mateuszex\brain-octopus\src132827019391182691 1
+36D:\Repos\Mateuszex\brain-octopus\src132827822696585818 1
 66D:\Repos\Mateuszex\brain-octopus\node_modules\hash.js\lib\hash\sha132826967817176169 1
 82D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\internals\collection-from.js132826967853715324 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\pako\lib\zlib\deflate.js132826967808491129 0
@@ -152,7 +152,7 @@
 52D:\Repos\Mateuszex\brain-octopus\src\scss\_grid.scss132826979373226618 0
 117D:\Repos\Mateuszex\brain-octopus\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\namespaces.js132826967836934894 0
 63D:\Repos\Mateuszex\brain-octopus\node_modules\stream-browserify132826967811489418 1
-52D:\Repos\Mateuszex\brain-octopus\.idea\workspace.xml132827019392082178 0
+52D:\Repos\Mateuszex\brain-octopus\.idea\workspace.xml132827825342020157 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\postcss\lib\css-syntax-error.js132826967795158731 0
 60D:\Repos\Mateuszex\brain-octopus\node_modules\path-is-inside132826967782655864 1
 107D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-local-by-default\node_modules\chalk\readme.md132826967794249249 0
@@ -171,7 +171,7 @@
 66D:\Repos\Mateuszex\brain-octopus\node_modules\json-schema-traverse132826967798446856 1
 71D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-calc\package.json132826967808900893 0
 79D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\reporter-cli\package.json132826967836385208 0
-47D:\Repos\Mateuszex\brain-octopus\src\index.html132827019391172700 0
+47D:\Repos\Mateuszex\brain-octopus\src\index.html132827822696585818 0
 73D:\Repos\Mateuszex\brain-octopus\node_modules\iconv-lite\encodings\tables132826967822013408 1
 63D:\Repos\Mateuszex\brain-octopus\node_modules\side-channel\test132826967796318065 1
 56D:\Repos\Mateuszex\brain-octopus\node_modules\uuid\v3.js132826967811169596 0
@@ -185,7 +185,7 @@
 65D:\Repos\Mateuszex\brain-octopus\node_modules\split2\node_modules132826967753062743 1
 77D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\node-resolver-core\test132826967842551696 1
 74D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2018\TimeClip.js132826967879350708 0
-41D:\Repos\Mateuszex\brain-octopus\src\scss132827004065787627 1
+41D:\Repos\Mateuszex\brain-octopus\src\scss132827775008866651 1
 89D:\Repos\Mateuszex\brain-octopus\node_modules\@babel\helper-compilation-targets\README.md132826967791370891 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\builtin-status-codes\license132826967791960556 0
 71D:\Repos\Mateuszex\brain-octopus\node_modules\tough-cookie\package.json132826967778508222 0
@@ -204,7 +204,7 @@
 71D:\Repos\Mateuszex\brain-octopus\node_modules\terser\dist\bundle.min.js132826967822673037 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\array\entries.js132826967860401518 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\domutils\lib\legacy.d.ts.map132826967814297812 0
-61D:\Repos\Mateuszex\brain-octopus\src\scss\layout\_footer.scss132827016888587470 0
+61D:\Repos\Mateuszex\brain-octopus\src\scss\layout\_footer.scss132827825341450454 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2017\ToObject.js132826967881549446 0
 73D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-ordered-values\dist132826967809970284 1
 70D:\Repos\Mateuszex\brain-octopus\node_modules\highlight.js\lib\core.js132826967851346679 0
@@ -215,7 +215,7 @@
 57D:\Repos\Mateuszex\brain-octopus\node_modules\object-keys132826967808661029 1
 88D:\Repos\Mateuszex\brain-octopus\node_modules\is-weakref\.github\workflows\node-zero.yml132826967814277824 0
 56D:\Repos\Mateuszex\brain-octopus\node_modules\node-forge132826967846189614 1
-48D:\Repos\Mateuszex\brain-octopus\src\scss\layout132827016888587470 1
+48D:\Repos\Mateuszex\brain-octopus\src\scss\layout132827825341450454 1
 73D:\Repos\Mateuszex\brain-octopus\node_modules\har-schema\lib\creator.json132826967807501691 0
 75D:\Repos\Mateuszex\brain-octopus\node_modules\browserify-zlib\karma.conf.js132826967793139878 0
 101D:\Repos\Mateuszex\brain-octopus\node_modules\uncss\node_modules\postcss-selector-parser\package.json132826967823592507 0
@@ -225,7 +225,7 @@
 86D:\Repos\Mateuszex\brain-octopus\node_modules\caniuse-lite\data\features\hashchange.js132826967863569700 0
 53D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel132826973584880344 1
 104D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-values\node_modules\postcss\lib\at-rule.js132826967814837508 0
-51D:\Repos\Mateuszex\brain-octopus\src\scss\main.scss132827002365654325 0
+51D:\Repos\Mateuszex\brain-octopus\src\scss\main.scss132827760575484113 0
 62D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2017132826967884217931 1
 91D:\Repos\Mateuszex\brain-octopus\node_modules\caniuse-lite\data\features\async-functions.js132826967835275844 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\imurmurhash\package.json132826967778957979 0
@@ -281,7 +281,13 @@
 60D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\cond.js132826967863050006 0
 60D:\Repos\Mateuszex\brain-octopus\node_modules\bytes\index.js132826967784484817 0
 52D:\Repos\Mateuszex\brain-octopus\node_modules\verror132826967799156464 1
-57D:\Repos\Mateuszex\brain-octopus\src\scss\_variables.scss132826992039117068 0
+57D:\Repos\Mateuszex\brain-octopus\src\scss\_variables.scss132827775008856644 0
+62D:\Repos\Mateuszex\brain-octopus\src\scss\layout\_buttons.scss132827824921995490 0
+58D:\Repos\Mateuszex\brain-octopus\node_modules\pako\LICENSE132826967778898006 0
+87D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-selector-parser\dist\processor.js132826967836405200 0
+84D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2016\IsConcatSpreadable.js132826967865858401 0
+82D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\schemes\http.d.ts132826967836415193 0
+65D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\_baseTrim.js132826967850017432 0
 61D:\Repos\Mateuszex\brain-octopus\node_modules\posthtml-parser132826967821763559 1
 71D:\Repos\Mateuszex\brain-octopus\node_modules\css-select\lib\types.d.ts132826967833996576 0
 71D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\5\MakeDate.js132826967870985471 0
@@ -424,7 +430,7 @@
 65D:\Repos\Mateuszex\brain-octopus\node_modules\astring\bin\astring132826967786603614 0
 78D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\es\string\starts-with.js132826967894222209 0
 80D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-minify-params\package.json132826967792370323 0
-67D:\Repos\Mateuszex\brain-octopus\dist\brain-octopus.356c6128.js.map132826973624314914 0
+67D:\Repos\Mateuszex\brain-octopus\dist\brain-octopus.356c6128.js.map132827782491828853 0
 83D:\Repos\Mateuszex\brain-octopus\node_modules\uncss\node_modules\source-map\LICENSE132826967786103895 0
 57D:\Repos\Mateuszex\brain-octopus\node_modules\assert-plus132826967790631309 1
 95D:\Repos\Mateuszex\brain-octopus\node_modules\jsdom\lib\jsdom\living\navigator\MimeType-impl.js132826967860951194 0
@@ -515,13 +521,13 @@
 81D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\features\instance\splice.js132826967894092284 0
 78D:\Repos\Mateuszex\brain-octopus\node_modules\cssstyle\lib\properties\clear.js132826967838284130 0
 58D:\Repos\Mateuszex\brain-octopus\node_modules\bcrypt-pbkdf132826967791900592 1
-76D:\Repos\Mateuszex\brain-octopus\node_modules\object-inspect\test-core-js.js132826967825021697 0
-57D:\Repos\Mateuszex\brain-octopus\node_modules\array-union132826967790741248 1
 75D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2019\IsPromise.js132826967868177071 0
 105D:\Repos\Mateuszex\brain-octopus\node_modules\split2\node_modules\readable-stream\lib\_stream_writable.js132826967801535098 0
 75D:\Repos\Mateuszex\brain-octopus\node_modules\vm-browserify\readme.markdown132826967807411746 0
 52D:\Repos\Mateuszex\brain-octopus\node_modules\big.js132826967800805517 1
 64D:\Repos\Mateuszex\brain-octopus\node_modules\randomfill\test.js132826967803454000 0
+76D:\Repos\Mateuszex\brain-octopus\node_modules\object-inspect\test-core-js.js132826967825021697 0
+57D:\Repos\Mateuszex\brain-octopus\node_modules\array-union132826967790741248 1
 61D:\Repos\Mateuszex\brain-octopus\node_modules\stylehacks\dist132826967818735278 1
 103D:\Repos\Mateuszex\brain-octopus\node_modules\react-refresh\cjs\react-refresh-runtime.production.min.js132826967800645603 0
 84D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2017\AdvanceStringIndex.js132826967839803257 0
@@ -973,10 +979,10 @@
 105D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-scope\node_modules\source-map\source-map.js132826967789531943 0
 66D:\Repos\Mateuszex\brain-octopus\node_modules\tough-cookie\LICENSE132826967781286641 0
 51D:\Repos\Mateuszex\brain-octopus\node_modules\debug132826967800615617 1
-68D:\Repos\Mateuszex\brain-octopus\node_modules\word-wrap\package.json132826967778498228 0
 84D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-unique-selectors\dist\index.js132826967788252674 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\caniuse-lite\data\regions\EC.js132826967860001735 0
 120D:\Repos\Mateuszex\brain-octopus\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\stripComments.js132826967839153629 0
+68D:\Repos\Mateuszex\brain-octopus\node_modules\word-wrap\package.json132826967778498228 0
 73D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\logger\package.json132826967829768987 0
 53D:\Repos\Mateuszex\brain-octopus\node_modules\deep-is132826967805772679 1
 92D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2016\AbstractEqualityComparison.js132826967827010562 0
@@ -2753,6 +2759,7 @@
 73D:\Repos\Mateuszex\brain-octopus\node_modules\xmlchars\xml\1.1\ed2.js.map132826967807531675 0
 82D:\Repos\Mateuszex\brain-octopus\node_modules\get-symbol-description\.eslintignore132826967778468247 0
 85D:\Repos\Mateuszex\brain-octopus\node_modules\utility-types\dist\utility-types.js.map132826967816286681 0
+68D:\Repos\Mateuszex\brain-octopus\node_modules\whatwg-url\LICENSE.txt132826967812328936 0
 75D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\string\bold.js132826967851736453 0
 84D:\Repos\Mateuszex\brain-octopus\node_modules\css-tree\lib\syntax\node\MediaQuery.js132826967846959174 0
 89D:\Repos\Mateuszex\brain-octopus\node_modules\http-proxy-middleware\dist\path-rewriter.js132826967814817517 0
@@ -2763,7 +2770,6 @@
 68D:\Repos\Mateuszex\brain-octopus\node_modules\randomfill\.travis.yml132826967781686413 0
 81D:\Repos\Mateuszex\brain-octopus\node_modules\highlight.js\lib\languages\clean.js132826967850926923 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\uuid\lib\sha1-browser.js132826967806772104 0
-68D:\Repos\Mateuszex\brain-octopus\node_modules\whatwg-url\LICENSE.txt132826967812328936 0
 85D:\Repos\Mateuszex\brain-octopus\node_modules\lmdb-store\dependencies\lz4\lib\lz4hc.h132826967850107382 0
 72D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\core\test\fixtures132826967857313275 1
 98D:\Repos\Mateuszex\brain-octopus\node_modules\msgpackr-extract\prebuilds\linux-x64\node.abi72.node132826967837104806 0
@@ -3229,7 +3235,7 @@
 98D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-values\node_modules\has-flag\license132826967785384308 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\object.assign\.eslintrc132826967784394865 0
 82D:\Repos\Mateuszex\brain-octopus\node_modules\filesize\lib\filesize.es6.min.js.map132826967802804375 0
-63D:\Repos\Mateuszex\brain-octopus\dist\spotify-icon.170eb5ed.png132827012050349510 0
+63D:\Repos\Mateuszex\brain-octopus\dist\spotify-icon.170eb5ed.png132827782491648950 0
 78D:\Repos\Mateuszex\brain-octopus\node_modules\source-map-js\lib\source-node.js132826967811259549 0
 85D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-discard-overridden\CHANGELOG.md132826967789352041 0
 103D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules\node_modules\postcss\lib\map-generator.js132826967811549390 0
@@ -3431,10 +3437,6 @@
 72D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\schemes132826967839703317 1
 79D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-discard-empty\LICENSE-MIT132826967778838035 0
 73D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\uri.d.ts132826967838573964 0
-87D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-selector-parser\dist\processor.js132826967836405200 0
-84D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2016\IsConcatSpreadable.js132826967865858401 0
-82D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\schemes\http.d.ts132826967836415193 0
-65D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\_baseTrim.js132826967850017432 0
 64D:\Repos\Mateuszex\brain-octopus\node_modules\cssom\README.mdown132826967784454839 0
 80D:\Repos\Mateuszex\brain-octopus\node_modules\uri-js\dist\esnext\schemes\http.js132826967783285513 0
 80D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\features\symbol\key-for.js132826967885916961 0
@@ -4058,8 +4060,8 @@
 95D:\Repos\Mateuszex\brain-octopus\node_modules\split2\node_modules\readable-stream\GOVERNANCE.md132826967825281546 0
 65D:\Repos\Mateuszex\brain-octopus\node_modules\terser\CHANGELOG.md132826967842271853 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\@babel\traverse\lib\path\lib132826967826630773 1
-61D:\Repos\Mateuszex\brain-octopus\node_modules\jake\bin\cli.js132826967826550818 0
 81D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2020\Number\lessThan.js132826967870745609 0
+61D:\Repos\Mateuszex\brain-octopus\node_modules\jake\bin\cli.js132826967826550818 0
 76D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\modules\es.array.at.js132826967861071132 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\terser\tools\domprops.js132826967829299254 0
 100D:\Repos\Mateuszex\brain-octopus\node_modules\jsdom\lib\jsdom\living\generated\SVGGraphicsElement.js132826967858632517 0
@@ -4910,7 +4912,7 @@
 60D:\Repos\Mateuszex\brain-octopus\node_modules\sha.js\hash.js132826967788492530 0
 78D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2021\DateFromTime.js132826967855104529 0
 81D:\Repos\Mateuszex\brain-octopus\node_modules\highlight.js\lib\languages\shell.js132826967858972325 0
-62D:\Repos\Mateuszex\brain-octopus\dist\amazon-logo.a6bcf53a.png132827012050349510 0
+62D:\Repos\Mateuszex\brain-octopus\dist\amazon-logo.a6bcf53a.png132827782491648950 0
 66D:\Repos\Mateuszex\brain-octopus\node_modules\prelude-ls\README.md132826967781186701 0
 81D:\Repos\Mateuszex\brain-octopus\node_modules\caniuse-lite\data\features\forms.js132826967862440345 0
 82D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\modules\esnext.math.scale.js132826967871924936 0
@@ -5140,7 +5142,7 @@
 77D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\date\set-year.js132826967892593144 0
 85D:\Repos\Mateuszex\brain-octopus\node_modules\css-tree\lib\lexer\generic-an-plus-b.js132826967840782703 0
 111D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-extract-imports\node_modules\source-map\README.md132826967782525943 0
-60D:\Repos\Mateuszex\brain-octopus\dist\index.603968dc.css.map132827016889816900 0
+60D:\Repos\Mateuszex\brain-octopus\dist\index.603968dc.css.map132827825342619693 0
 85D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2019\OrdinaryToPrimitive.js132826967874043728 0
 67D:\Repos\Mateuszex\brain-octopus\node_modules\node-forge\lib\log.js132826967832307540 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\relateurl\lib\parse\hrefInfo.js132826967804803230 0
@@ -5974,9 +5976,6 @@
 80D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-scope\node_modules132826967753162684 1
 69D:\Repos\Mateuszex\brain-octopus\node_modules\is-symbol\.editorconfig132826967778448264 0
 80D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-scope\package.json132826967778848029 0
-93D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2016\CanonicalNumericIndexString.js132826967850097387 0
-64D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\debounce.js132826967864139376 0
-66D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\curryRight.js132826967863909511 0
 94D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\modules\esnext.typed-array.filter-out.js132826967873274165 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-scope\README.md132826967781676421 0
 92D:\Repos\Mateuszex\brain-octopus\node_modules\postcss-modules-scope\node_modules\ansi-styles132826967787882880 1
@@ -6984,7 +6983,6 @@
 81D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\es\function\virtual\bind.js132826967850617099 0
 59D:\Repos\Mateuszex\brain-octopus\node_modules\pako\index.js132826967811489418 0
 54D:\Repos\Mateuszex\brain-octopus\node_modules\pako\lib132826967814577652 1
-58D:\Repos\Mateuszex\brain-octopus\node_modules\pako\LICENSE132826967778898006 0
 65D:\Repos\Mateuszex\brain-octopus\node_modules\pako\lib\deflate.js132826967805183011 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\is-date-object\index.js132826967796318065 0
 67D:\Repos\Mateuszex\brain-octopus\node_modules\ajv\lib\dot\allOf.jst132826967844830393 0
@@ -7689,6 +7687,9 @@
 60D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\core.js132826967863509735 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\browserify-aes\incr32.js132826967806092496 0
 63D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\countBy.js132826967863589689 0
+93D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2016\CanonicalNumericIndexString.js132826967850097387 0
+64D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\debounce.js132826967864139376 0
+66D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\curryRight.js132826967863909511 0
 62D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\deburr.js132826967864209353 0
 64D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\defaults.js132826967864329266 0
 86D:\Repos\Mateuszex\brain-octopus\node_modules\@swc\helpers\src\_non_iterable_spread.js132826967850427200 0
@@ -7803,7 +7804,7 @@
 63D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\isArray.js132826967870625676 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\isArrayBuffer.js132826967870675646 0
 67D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\isArrayLike.js132826967870745609 0
-48D:\Repos\Mateuszex\brain-octopus\dist\index.html132827019392382000 0
+48D:\Repos\Mateuszex\brain-octopus\dist\index.html132827822698775428 0
 117D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\workers\test\integration\workerfarm\resolve-shared-reference.js132826967836205318 0
 73D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\isArrayLikeObject.js132826967870795575 0
 84D:\Repos\Mateuszex\brain-octopus\node_modules\highlight.js\lib\languages\vbscript.js132826967860021727 0
@@ -7976,7 +7977,7 @@
 72D:\Repos\Mateuszex\brain-octopus\node_modules\har-validator\package.json132826967793299788 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\@types\node\worker_threads.d.ts132826967844870373 0
 65D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\startCase.js132826967878491185 0
-62D:\Repos\Mateuszex\brain-octopus\dist\logo_footer.467f734f.png132826994690090293 0
+62D:\Repos\Mateuszex\brain-octopus\dist\logo_footer.467f734f.png132827782491648950 0
 60D:\Repos\Mateuszex\brain-octopus\node_modules\is-nan\LICENSE132826967788522512 0
 66D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\startsWith.js132826967878601129 0
 62D:\Repos\Mateuszex\brain-octopus\node_modules\lodash\string.js132826967878651122 0
@@ -11229,7 +11230,7 @@
 81D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2020\BigInt\toString.js132826967882338993 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\caniuse-lite\data\regions\PM.js132826967871525168 0
 83D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2020\BigInt\unaryMinus.js132826967883278454 0
-57D:\Repos\Mateuszex\brain-octopus\dist\contact.30d63e86.js132826973624135010 0
+57D:\Repos\Mateuszex\brain-octopus\dist\contact.30d63e86.js132827782491648950 0
 91D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2020\BigInt\unsignedRightShift.js132826967883428372 0
 92D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2019\AbstractEqualityComparison.js132826967829898912 0
 94D:\Repos\Mateuszex\brain-octopus\node_modules\es-abstract\2019\AbstractRelationalComparison.js132826967833716731 0
@@ -12608,7 +12609,7 @@
 75D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\set-timeout.js132826967892423241 0
 84D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\modules\esnext.map.find-key.js132826967871275310 0
 67D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\string132826967895941233 1
-61D:\Repos\Mateuszex\brain-octopus\dist\contact.30d63e86.js.map132826973624354883 0
+61D:\Repos\Mateuszex\brain-octopus\dist\contact.30d63e86.js.map132827782491828853 0
 67D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\symbol132826967896251057 1
 72D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\typed-array132826967896470929 1
 72D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\unescape.js132826967896161107 0
@@ -12842,7 +12843,7 @@
 74D:\Repos\Mateuszex\brain-octopus\node_modules\combined-stream\package.json132826967778498228 0
 78D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\array\iterator.js132826967885517182 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\array\join.js132826967885836998 0
-56D:\Repos\Mateuszex\brain-octopus\dist\index.603968dc.css132827016889796915 0
+56D:\Repos\Mateuszex\brain-octopus\dist\index.603968dc.css132827825342609707 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\array\keys.js132826967886136830 0
 82D:\Repos\Mateuszex\brain-octopus\node_modules\core-js\stable\array\reduce-right.js132826967890574292 0
 77D:\Repos\Mateuszex\brain-octopus\node_modules\caniuse-lite\data\regions\ZM.js132826967877411805 0
@@ -14538,7 +14539,7 @@
 71D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\hash\package.json132826967811759258 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\balanced-match\README.md132826967788132732 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\browserify-sign\algos.js132826967781706410 0
-63D:\Repos\Mateuszex\brain-octopus\dist\brain-octopus.356c6128.js132826973624135010 0
+63D:\Repos\Mateuszex\brain-octopus\dist\brain-octopus.356c6128.js132827782491648950 0
 70D:\Repos\Mateuszex\brain-octopus\node_modules\browserify-sign\index.js132826967789372037 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\browserify-sign\LICENSE132826967778878015 0
 74D:\Repos\Mateuszex\brain-octopus\node_modules\browserify-sign\node_modules132826967753082750 1
@@ -14588,7 +14589,7 @@
 60D:\Repos\Mateuszex\brain-octopus\node_modules\braces\LICENSE132826967788102753 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\braces\lib\constants.js132826967801645034 0
 65D:\Repos\Mateuszex\brain-octopus\node_modules\braces\lib\parse.js132826967806802088 0
-56D:\Repos\Mateuszex\brain-octopus\.idea\brain-octopus.iml132826843144549275 0
+56D:\Repos\Mateuszex\brain-octopus\.idea\brain-octopus.iml132827020919052686 0
 69D:\Repos\Mateuszex\brain-octopus\node_modules\braces\lib\stringify.js132826967808291236 0
 89D:\Repos\Mateuszex\brain-octopus\node_modules\@parcel\node-resolver-core\test\resolver.js132826967842841526 0
 65D:\Repos\Mateuszex\brain-octopus\node_modules\braces\lib\utils.js132826967809680446 0
@@ -15888,5 +15889,5 @@
 59D:\Repos\Mateuszex\brain-octopus\node_modules\.bin\uuid.cmd132826967897900126 0
 60D:\Repos\Mateuszex\brain-octopus\node_modules\.bin\which.cmd132826967897910105 0
 60D:\Repos\Mateuszex\brain-octopus\node_modules\.bin\which.ps1132826967897910105 0
-50D:\Repos\Mateuszex\brain-octopus\dist\contact.html132826973624694691 0
-62D:\Repos\Mateuszex\brain-octopus\dist\forbes-logo.4efdab1e.png132827012050349510 0
+50D:\Repos\Mateuszex\brain-octopus\dist\contact.html132827782491748905 0
+62D:\Repos\Mateuszex\brain-octopus\dist\forbes-logo.4efdab1e.png132827782491648950 0

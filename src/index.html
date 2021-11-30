@@ -15,7 +15,7 @@ dupawebpacks
 
 <footer class="footer">
     <div class="footer__container">
-        <div class="footer__wrapper">
+        <div class="footer__wrapper footer__wrapper--top">
             <h6 class="heading heading--xs">
                 partners & clients
             </h6>
@@ -42,14 +42,40 @@ dupawebpacks
         </div>
     </div>
     <div class="footer__container">
-        <div class="footer__wrapper">
-            <img alt="Logo brain octopus" src="assets/images/logo_footer.png">
+        <div class="footer__wrapper footer__wrapper--bottom">
+            <img class="footer__logo" alt="Logo brain octopus" src="assets/images/logo_footer.png">
+            <div class="lang-btn">
+                <span class="lang-btn__selected">English</span>
+                <ul class="lang-btn__list">
+                    <li><a href="/">Polish</a></li>
+                    <li><a href="/">German</a></li>
+                    <li><a href="/">French</a></li>
+                </ul>
+            </div>
             <ul class="footer__menu">
-                <li class="footer__menu-item"><a href="/">All categories</a></li>
+                <li class="footer__menu-item"><a href="/">All categories</a>
+                    <ul class="footer__submenu">
+                        <li class="footer__submenu-item"><a href="/">Category link #1</a></li>
+                        <li class="footer__submenu-item"><a href="/">Category link #2</a></li>
+                        <li class="footer__submenu-item"><a href="/">Category link #3</a></li>
+                    </ul>
+                </li>
                 <li class="footer__menu-item"><a href="/">Pricing</a></li>
-                <li class="footer__menu-item"><a href="/">About us</a></li>
+                <li class="footer__menu-item"><a href="/">About us</a>
+                    <ul class="footer__submenu">
+                        <li class="footer__submenu-item"><a href="/">Info link #1</a></li>
+                        <li class="footer__submenu-item"><a href="/">Info link #2</a></li>
+                        <li class="footer__submenu-item"><a href="/">Info link #3</a></li>
+                    </ul>
+                </li>
                 <li class="footer__menu-item"><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="footer__content">
+                <div class="double-btn">
+                    <a href="/" class="double-btn--primary">Log In</a>
+                    <a href="/" class="double-btn--secondary"><span>Sign Up</span></a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
