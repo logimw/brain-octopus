@@ -89,6 +89,7 @@
       background-color: $gray;
       top: 50%;
       transform: translateY(-50%);
+      transition: transform 300ms;
     }
 
     &::after {
@@ -105,7 +106,13 @@
   &:hover .lang-btn__list {
     transform: translateY(0);
     opacity: 1;
-    transition: transform 300ms, opacity 100ms ease 100ms;
+    transition: transform 300ms, opacity 300ms ease 100ms;
+  }
+
+  &:hover .lang-btn__selected {
+    &::after, &::before {
+      transform: rotate(0);
+    }
   }
 
   &__list {

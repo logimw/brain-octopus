@@ -1,0 +1,20 @@
+.social-link {
+  border: 1px solid $secondary;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  transition: border 300ms;
+  &:hover {
+    border: 1px solid $primary;
+    .social-icon {
+      fill: $primary;
+    }
+  }
+}
+.social-icon {
+    height: 2rem;
+    width: 2rem;
+    fill: $secondary;
+    margin: .9rem;
+    transition: fill 300ms;
+}
