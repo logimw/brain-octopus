@@ -4,7 +4,6 @@
 
   &__container {
     @include grid-container;
-
     padding: 3.5rem 0;
     margin-bottom: 1rem;
     background: $tertiary;
@@ -18,10 +17,17 @@
     &--top {
       align-items: center;
     }
+
     &--bottom {
       align-items: flex-start;
       flex-wrap: wrap;
     }
+  }
+
+  &__col {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
   }
 
   &__logo {
@@ -49,6 +55,7 @@
   &__menu {
     display: flex;
     flex-wrap: wrap;
+    margin-right: 2.5rem;
 
     li {
       list-style: none;
@@ -97,5 +104,14 @@
 
   .lang-btn {
     margin-right: 1.5rem;
+  }
+
+  &__social-box {
+    display: flex;
+    align-items: center;
+
+    & :first-child {
+      margin-right: 1rem;
+    }
   }
 }

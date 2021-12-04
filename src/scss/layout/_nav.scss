@@ -1,0 +1,41 @@
+.nav {
+  grid-column: 1 / -1;
+  background: $tertiary;
+  max-height: 8rem;
+  @include grid-container;
+
+  &__container {
+    grid-column: container-start / container-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 2.5rem;
+  }
+
+  &__link {
+    color: $gray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 1rem;
+    transition: color 300ms;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+  .lang-btn {
+    margin-right: 1.5rem;
+  }
+}
