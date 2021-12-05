@@ -1,0 +1,22 @@
+.social-link {
+  border: 1px solid $secondary;
+  border-radius: 50%;
+  height:3.4rem;
+  width: 3.4rem;
+  transition: border 300ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    border: 1px solid $primary;
+    .social-icon {
+      fill: $primary;
+    }
+  }
+}
+.social-icon {
+    fill: $secondary;
+    margin: .9rem;
+    transition: fill 300ms;
+}

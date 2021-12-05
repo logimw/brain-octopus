@@ -1,0 +1,14 @@
+.cta {
+  grid-column: container-start / container-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-size: cover;
+
+
+  h2, p {
+    margin-bottom: 3.5rem;
+  }
+}

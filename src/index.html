@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Home page &mdash; Brain Octopus</title>
 
-    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&family=Montserrat:wght@300;400;500;700&display=swap"
@@ -12,39 +12,184 @@
     <link href="scss/main.scss" rel="stylesheet">
 </head>
 <body class="container">
-    <nav class="nav">
+<nav class="nav">
 
-        <div class="nav__container">
-            <div class="nav__logo">
-                <img src="assets/images/logo.png" alt="Brain Octopus Logo">
-            </div>
-
-            <div class="nav__menu">
-                <ul class="nav__links">
-                    <li class="nav__item"><a href="/" class="nav__link">All categories</a></li>
-                    <li class="nav__item"><a href="/" class="nav__link">Pricing</a></li>
-                    <li class="nav__item"><a href="/" class="nav__link">About Us</a></li>
-                    <li class="nav__item"><a href="/" class="nav__link">Contact</a></li>
-                </ul>
-                <div class="lang-btn">
-                    <span class="lang-btn__selected">English</span>
-                    <ul class="lang-btn__list">
-                        <li><a href="/">Polish</a></li>
-                        <li><a href="/">German</a></li>
-                        <li><a href="/">French</a></li>
-                    </ul>
-                </div>
-                <div class="double-btn">
-                    <a class="double-btn--primary" href="/">Log In</a>
-                    <a class="double-btn--secondary" href="/"><span>Sign Up</span></a>
-                </div>
-            </div>
+    <div class="nav__container">
+        <div class="nav__logo">
+            <img alt="Brain Octopus Logo" src="assets/images/logo.png">
         </div>
 
+        <div class="nav__menu">
+            <ul class="nav__links">
+                <li class="nav__item"><a class="nav__link" href="/">All categories</a></li>
+                <li class="nav__item"><a class="nav__link" href="/">Pricing</a></li>
+                <li class="nav__item"><a class="nav__link" href="/">About Us</a></li>
+                <li class="nav__item"><a class="nav__link" href="/">Contact</a></li>
+            </ul>
+            <div class="lang-btn">
+                <span class="lang-btn__selected">English</span>
+                <ul class="lang-btn__list">
+                    <li><a href="/">Polish</a></li>
+                    <li><a href="/">German</a></li>
+                    <li><a href="/">French</a></li>
+                </ul>
+            </div>
+            <div class="double-btn">
+                <a class="double-btn--primary" href="/">Log In</a>
+                <a class="double-btn--secondary" href="/"><span>Sign Up</span></a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="search">
+    <h2>
+        <label for="search">Find a course</label>
+    </h2>
+
+    <div class="search__form">
+        <form action="">
+            <input placeholder="Osetopathy, etc..." id="search" name="search" type="text"/>
+            <button class="btn-primary" type="submit"><span>Search</span></button>
+        </form>
+    </div>
+</section>
+
+<section class="cta" style="background-image: url('assets/images/shutterstock_322360979 1.png')">
+    <h2><span class="heading--primary">Become a premium</span><br>
+        to get an acces to over <span class="heading--primary">50 movies</span></h2>
+    <p class="subtitle">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. </p>
+    <a href="/" class="btn-primary"><span>Start now</span></a>
+</section>
 
 
-    </nav>
+<section class="faq">
+    <h2>Frequently asked questions</h2>
 
+    <div class="faq__container">
+        <div class="faq__item">
+            <details class="faq__details">
+                <summary class="faq__title">What is Brain Octopus?</summary>
+                <div class="faq__content">
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                        Przykro
+                        mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
+                        dedlajnów? I
+                        właśnie dlatego czlendż jest taki pasjonujący, dlatego potrzebny będzie fokus na konkretny
+                        target.</p>
+
+                    <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
+                        wiem, że
+                        to
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        czego
+                        wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
+                        będzie
+                        premii.</p>
+                </div>
+            </details>
+            <div class="faq__item--block"></div>
+        </div>
+        <div class="faq__item">
+            <details class="faq__details">
+                <summary class="faq__title">Will I be charged taxes?</summary>
+                <div class="faq__content">
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                        Przykro
+                        mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
+                        dedlajnów? I
+                        właśnie dlatego czlendż jest taki pasjonujący, dlatego potrzebny będzie fokus na konkretny
+                        target.</p>
+
+                    <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
+                        wiem, że
+                        to
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        czego
+                        wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
+                        będzie
+                        premii.</p>
+                </div>
+            </details>
+            <div class="faq__item--block"></div>
+        </div>
+        <div class="faq__item">
+            <details class="faq__details">
+                <summary class="faq__title">Whats the prices?</summary>
+                <div class="faq__content">
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                        Przykro
+                        mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
+                        dedlajnów? I
+                        właśnie dlatego czlendż jest taki pasjonujący, dlatego potrzebny będzie fokus na konkretny
+                        target.</p>
+
+                    <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
+                        wiem, że
+                        to
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        czego
+                        wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
+                        będzie
+                        premii.</p>
+                </div>
+            </details>
+            <div class="faq__item--block"></div>
+        </div>
+        <div class="faq__item">
+            <details class="faq__details">
+                <summary class="faq__title">How can I cancel subscription?</summary>
+                <div class="faq__content">
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                        Przykro
+                        mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
+                        dedlajnów? I
+                        właśnie dlatego czlendż jest taki pasjonujący, dlatego potrzebny będzie fokus na konkretny
+                        target.</p>
+
+                    <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
+                        wiem, że
+                        to
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        czego
+                        wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
+                        będzie
+                        premii.</p>
+                </div>
+            </details>
+            <div class="faq__item--block"></div>
+        </div>
+        <div class="faq__item">
+            <details class="faq__details">
+                <summary class="faq__title">What is Brain Octopus?</summary>
+                <div class="faq__content">
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                        Przykro
+                        mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
+                        dedlajnów? I
+                        właśnie dlatego czlendż jest taki pasjonujący, dlatego potrzebny będzie fokus na konkretny
+                        target.</p>
+
+                    <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
+                        wiem, że
+                        to
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        czego
+                        wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
+                        będzie
+                        premii.</p>
+                </div>
+            </details>
+            <div class="faq__item--block"></div>
+        </div>
+    </div>
+
+    <div class="faq__subtitle">
+        <p class="subtitle">if you didn't find the answer to your question above - <a href="">contact us here</a></p>
+    </div>
+
+
+</section>
 
 <footer class="footer">
     <div class="footer__container">
