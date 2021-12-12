@@ -9,6 +9,11 @@
   &--primary {
     color: $primary;
   }
+
+  &--secondary {
+    font-size: 10rem;
+    color: $orange;
+  }
 }
 
 .subtitle {
@@ -34,6 +39,10 @@ section {
     font-weight: 400;
     padding-bottom: 1.5rem;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 6rem;
   }
 
   &.cta {

@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Home page &mdash; Brain Octopus</title>
-
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500;700&family=Montserrat:wght@300;400;500;700&display=swap"
-          rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link href="scss/main.scss" rel="stylesheet">
 </head>
 <body class="container">
 <nav class="nav">
-
     <div class="nav__container">
         <div class="nav__logo">
             <img alt="Brain Octopus Logo" src="assets/images/logo.png">
@@ -49,7 +50,7 @@
 
     <div class="search__form">
         <form action="">
-            <input placeholder="Osetopathy, etc..." id="search" name="search" type="text"/>
+            <input id="search" name="search" placeholder="Osetopathy, etc..." type="text"/>
             <button class="btn-primary" type="submit"><span>Search</span></button>
         </form>
     </div>
@@ -58,8 +59,65 @@
 <section class="cta" style="background-image: url('assets/images/shutterstock_322360979 1.png')">
     <h2><span class="heading--primary">Become a premium</span><br>
         to get an acces to over <span class="heading--primary">50 movies</span></h2>
-    <p class="subtitle">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. </p>
-    <a href="/" class="btn-primary"><span>Start now</span></a>
+    <p class="subtitle">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas
+        platonem
+        eos. </p>
+    <a class="btn-primary" href="/"><span>Start now</span></a>
+</section>
+
+
+<section class="banner">
+    <h2>Lastest video course</h2>
+    <p class="subtitle">if you didn't find the answer to your question above - <a href="">contact us here</a></p>
+
+    <div class="banner__container">
+        <div class="banner__wrapper">
+            <img alt="Banner" class="banner__img" src="assets/images/banner.png">
+            <div class="banner__text-box">
+                <h3><span class="heading--secondary">6 ways</span><br> to improve your back pain</h3>
+            </div>
+        </div>
+
+        <div class="banner__data">
+            <div class="banner__author">
+                <img alt="Brain Octopus" src="assets/images/logo_selected_onblack.png">
+                <p>
+                    Dan Norman
+                </p>
+            </div>
+            <p class="banner__title">6 ways to improve your back pain</p>
+            <div class="banner__info">
+                <span>Lenght: 01h 23m</span>
+                <span>Andio: EN</span>
+                <span>Subtitles: EN/DE/PL</span>
+            </div>
+            <div class="banner__tags">
+                <div class="banner__tag"><a href="/">improvement</a></div>
+                <div class="banner__tag"><a href="/">back</a></div>
+                <div class="banner__tag"><a href="/">pack</a></div>
+                <div class="banner__tag"><a href="/">norman</a></div>
+                <div class="banner__tag"><a href="/">osteopathy</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="full">
+    <div id="coursesSlider" class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
 </section>
 
 
@@ -71,7 +129,8 @@
             <details class="faq__details">
                 <summary class="faq__title">What is Brain Octopus?</summary>
                 <div class="faq__content">
-                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć
+                        ścigać.
                         Przykro
                         mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
                         dedlajnów? I
@@ -81,7 +140,8 @@
                     <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
                         wiem, że
                         to
-                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to
+                        coś,
                         czego
                         wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
                         będzie
@@ -94,7 +154,8 @@
             <details class="faq__details">
                 <summary class="faq__title">Will I be charged taxes?</summary>
                 <div class="faq__content">
-                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć
+                        ścigać.
                         Przykro
                         mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
                         dedlajnów? I
@@ -104,7 +165,8 @@
                     <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
                         wiem, że
                         to
-                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to
+                        coś,
                         czego
                         wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
                         będzie
@@ -117,7 +179,8 @@
             <details class="faq__details">
                 <summary class="faq__title">Whats the prices?</summary>
                 <div class="faq__content">
-                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć
+                        ścigać.
                         Przykro
                         mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
                         dedlajnów? I
@@ -127,7 +190,8 @@
                     <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
                         wiem, że
                         to
-                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to
+                        coś,
                         czego
                         wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
                         będzie
@@ -140,7 +204,8 @@
             <details class="faq__details">
                 <summary class="faq__title">How can I cancel subscription?</summary>
                 <div class="faq__content">
-                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć
+                        ścigać.
                         Przykro
                         mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
                         dedlajnów? I
@@ -150,7 +215,8 @@
                     <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
                         wiem, że
                         to
-                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to
+                        coś,
                         czego
                         wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
                         będzie
@@ -163,7 +229,8 @@
             <details class="faq__details">
                 <summary class="faq__title">What is Brain Octopus?</summary>
                 <div class="faq__content">
-                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć ścigać.
+                    <p>Obczaj, że dostaliśmy zwrotkę od testingu, więc nie ma się co śmiać - musimy ich zacząć
+                        ścigać.
                         Przykro
                         mi to mówić, ale będziemy robić nowy iwent, także musisz zrobić risercz. Kiedy mamy dedlajn
                         dedlajnów? I
@@ -173,7 +240,8 @@
                     <p>Słowo prezesa jest słowem świętym. Może zwolnimy akonta. Masz zrobić ten fokus i to ASAP! Ja
                         wiem, że
                         to
-                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to coś,
+                        zwykła biurwa, ale kończy nam się czas, więc czas na kawę! Mam do was rikłest, kołczing to
+                        coś,
                         czego
                         wam trzeba, dlatego trzeba się dobrze przygotować, maks. 3 minuty. W najgorszym wypadku nie
                         będzie
@@ -185,7 +253,8 @@
     </div>
 
     <div class="faq__subtitle">
-        <p class="subtitle">if you didn't find the answer to your question above - <a href="">contact us here</a></p>
+        <p class="subtitle">if you didn't find the answer to your question above - <a href="">contact us here</a>
+        </p>
     </div>
 
 
@@ -275,5 +344,18 @@
         </div>
     </div>
 </footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        clickable: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+</script>
+
 </body>
 </html>
