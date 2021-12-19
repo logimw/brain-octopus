@@ -6,13 +6,21 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Norwester';
+  src:  url('../assets/font/norwester.otf') format('otf');
+}
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #333;
+  background-color: #191c21;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -23,6 +31,13 @@ section {
   &.full {
     grid-column: 1 / -1;
   }
+
+  &.dark-bg {
+    background-color: $dark;
+    padding: 12rem 0;
+  }
+
+
 }
 
 .swiper {
