@@ -223,3 +223,26 @@
     border-radius: 5rem;
   }
 }
+
+.btn-secondary {
+  color: $secondary;
+  padding: 1.25rem 3rem;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  background-color: transparent;
+  transition: background-color 300ms, box-shadow 300ms, color 300ms;
+
+  &:hover {
+    color: $primary;
+    background-color: rgba($secondary, 1);
+    box-shadow: 3px 3px 9px rgba($secondary, .1);
+  }
+}

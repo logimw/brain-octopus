@@ -1,4 +1,19 @@
 .header {
   min-height: 50vh;
   grid-column: container-start / container-end;
+  display: flex;
+  align-items: center;
+
+  &__text-box {
+    max-width: 56rem;
+  }
+
+  &__cta {
+    margin-top: 5rem;
+
+    .btn-secondary {
+      padding-left: 5rem;
+      margin-left: -4rem;
+    }
+  }
 }
