@@ -1,0 +1,20 @@
+.numbers {
+  grid-column: container-start / container-end;
+  padding: 4rem 0;
+
+  &__count {
+    color: $primary;
+    font-family: 'Norwester', sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: 'Montserrat', sans-serif;
+    color: $gray;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+}

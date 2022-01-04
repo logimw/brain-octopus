@@ -1,10 +1,18 @@
 new Swiper("#slider1 #coursesSlider", {
-    slidesPerView: 4,
+    slidesPerView: 1,
     clickable: true,
     navigation: {
         nextEl: '#slider1 .swiper-button-next',
         prevEl: '#slider1 .swiper-button-prev',
     },
+    breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        1350: {
+            slidesPerView: 4
+        }
+    }
 });
 new Swiper("#slider2 #authorsSlider", {
     slidesPerView: 1,
@@ -19,10 +27,35 @@ new Swiper("#slider2 #authorsSlider", {
     },
 });
 new Swiper("#slider3 #medicalCoursesSlider", {
-    slidesPerView: 4,
+    slidesPerView: 1,
     clickable: true,
     navigation: {
         nextEl: '#slider3 .swiper-button-next',
         prevEl: '#slider3 .swiper-button-prev',
     },
+    breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        1350: {
+            slidesPerView: 4
+        }
+    }
+});
+
+
+const items = document.querySelectorAll(".num")
+const countersTrigger = document.querySelector(".numbers");
+
+gsap.from(items, {
+    scrollTrigger: {
+        trigger: items[0],
+        start: "top bottom"
+    },
+    textContent: 0,
+    duration: 3,
+    ease: "power1.out",
+    snap: {
+        textContent: 1
+    }
 });

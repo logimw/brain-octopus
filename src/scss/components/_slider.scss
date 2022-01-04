@@ -127,6 +127,10 @@
       grid-template-rows: repeat(3, 1fr);
       column-gap: 12rem;
 
+      @include tablet {
+        column-gap: 2.5rem;
+      }
+
       &--description {
         color: $secondary;
         font-weight: 300;
