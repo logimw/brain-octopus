@@ -25,6 +25,10 @@ section {
   margin-top: 5rem;
   margin-bottom: 5rem;
 
+  &.search-results {
+    grid-column: container-start / container-end;
+  }
+
   &.full {
     grid-column: 1 / -1;
   }
@@ -33,6 +37,11 @@ section {
     background-color: $dark;
     padding: 12rem 0;
   }
+}
+
+.search-results__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
 .swiper {

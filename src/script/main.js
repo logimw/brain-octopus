@@ -43,19 +43,68 @@ new Swiper("#slider3 #medicalCoursesSlider", {
     }
 });
 
-
-const items = document.querySelectorAll(".num")
-const countersTrigger = document.querySelector(".numbers");
-
-gsap.from(items, {
-    scrollTrigger: {
-        trigger: items[0],
-        start: "top bottom"
+new Swiper("#slider1 #medicalCoursesSlider", {
+    slidesPerView: 1,
+    clickable: true,
+    navigation: {
+        nextEl: '#slider1 .swiper-button-next',
+        prevEl: '#slider1 .swiper-button-prev',
     },
-    textContent: 0,
-    duration: 3,
-    ease: "power1.out",
-    snap: {
-        textContent: 1
+    breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        1350: {
+            slidesPerView: 4
+        }
     }
 });
+new Swiper("#slider2 #osteopathyCoursesSlider", {
+    slidesPerView: 1,
+    clickable: true,
+    navigation: {
+        nextEl: '#slider2 .swiper-button-next',
+        prevEl: '#slider2 .swiper-button-prev',
+    },
+    breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        1350: {
+            slidesPerView: 4
+        }
+    }
+});
+new Swiper("#slider3 #educationalCoursesSlider", {
+    slidesPerView: 1,
+    clickable: true,
+    navigation: {
+        nextEl: '#slider3 .swiper-button-next',
+        prevEl: '#slider3 .swiper-button-prev',
+    },
+    breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        1350: {
+            slidesPerView: 4
+        }
+    }
+});
+
+
+const items = document.querySelectorAll(".num");
+if (items.length > 0) {
+    gsap.from(items, {
+        scrollTrigger: {
+            trigger: items[0],
+            start: "top bottom"
+        },
+        textContent: 0,
+        duration: 3,
+        ease: "power1.out",
+        snap: {
+            textContent: 1
+        }
+    });
+}
