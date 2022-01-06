@@ -1,0 +1,82 @@
+.pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  grid-gap: 2rem;
+  margin-top: 7.5rem;
+  align-items: center;
+
+  &__item {
+    background: $dark;
+    border: 5px solid $secondary;
+    display: grid;
+    grid-gap: .5rem;
+    justify-content: center;
+    padding: 5rem;
+    min-height: 50rem;
+    align-items: center;
+
+    &.main {
+      min-height: 60rem;
+      background-color: $tertiary;
+      position: relative;
+      overflow: hidden;
+      &::before {
+        content: "most popular";
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 11;
+        color: white;
+        background: linear-gradient($primary, $primary-dark);
+        transform: translate(25%,50%) rotate(45deg);
+        font-size: 1.4rem;
+        padding: 1.3rem 0;
+        width: 18rem;
+      }
+    }
+
+    & {
+      text-align: center;
+    }
+
+    &--title {
+      font-weight: 500;
+      color: $secondary;
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+    }
+
+    &--price {
+      color: $primary;
+      font-family: 'Norwester', sans-serif;
+      font-size:  6rem;
+      font-weight: 400;
+
+      .currency {
+        font-size: 4rem;
+      }
+
+      .interval {
+        color: $secondary;
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+        margin-top: .5rem;
+      }
+    }
+
+    &--features {
+      min-height: 10rem;
+      li {
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: $gray-dark-2;
+        list-style-image: url("../assets/images/checkmark.png");
+
+        &:not(:last-child) {
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}

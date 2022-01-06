@@ -246,3 +246,36 @@
     box-shadow: 3px 3px 9px rgba($secondary, .1);
   }
 }
+.btn-tertiary {
+  color: $secondary;
+  padding: 1.25rem 3rem;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid $primary;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  background-color: transparent;
+  transition: background-color 300ms, box-shadow 300ms, color 300ms;
+
+  &:not(:last-child) {
+    margin-right: .5rem;
+  }
+
+  &:hover {
+    color: $primary;
+    background-color: rgba($secondary, 1);
+    box-shadow: 3px 3px 9px rgba($secondary, .1);
+  }
+}
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
