@@ -8,19 +8,19 @@
             name="viewport"
     />
     <link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
     <link href="scss/main.scss" rel="stylesheet">
 </head>
-<body  class="container">
+<body class="container">
 <nav class="nav">
     <div class="nav__container">
         <div class="nav__logo">
-<a href="/">
-            <img alt="Brain Octopus Logo" src="assets/images/logo.png">
-</a>
+            <a href="/">
+                <img alt="Brain Octopus Logo" src="assets/images/logo.png">
+            </a>
         </div>
 
         <div class="nav__menu">
@@ -45,6 +45,28 @@
         </div>
     </div>
 </nav>
+<header class="grid">
+    <div class="grid__container">
+        <h1 class="heading--primary">Get in touch with us</h1>
+        <div class="form-container">
+            <form action="" class="form">
+                <div class="form__group">
+                    <input class="form__input" id="name" name="name" required type="text">
+                    <label class="form__label" for="name">Type your full name</label>
+                </div>
+                <div class="form__group">
+                    <input class="form__input" id="email" name="email" required type="text">
+                    <label class="form__label" for="email">Type your e-mail address</label>
+                </div>
+                <div class="form__group">
+                    <textarea class="form__input" cols="30" id="message" name="message" rows="10" required></textarea>
+                    <label class="form__label" for="message">Type your message</label>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</header>
 <section class="cta" style="background-image: url('assets/images/shutterstock_322360979 1.png')">
     <h2><span class="heading--primary">Become a premium</span><br>
         to get an acces to over <span class="heading--primary">50 movies</span></h2>
