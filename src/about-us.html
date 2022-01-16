@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home page &mdash; Brain Octopus</title>
+    <title>About us &mdash; Brain Octopus</title>
     <meta
             content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
             name="viewport"
     />
     <link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
     <link href="scss/main.scss" rel="stylesheet">
@@ -17,10 +17,8 @@
 <body class="container">
 <nav class="nav">
     <div class="nav__container">
-        <div class="nav__logo">
-            <a href="/">
-                <img alt="Brain Octopus Logo" src="assets/images/logo.png">
-            </a>
+        <div class="nav__logo"><a href="/">
+            <img alt="Brain Octopus Logo" src="assets/images/logo.png"></a>
         </div>
 
         <div class="nav__menu">
@@ -45,108 +43,137 @@
         </div>
     </div>
 </nav>
-
-<header class="header">
-    <div class="header__text-box">
-        <h1><span class="heading--primary">Become <br> a</span> premium <br> member</h1>
-        <div class="header__cta">
-            <a href="/" class="btn-primary"><span>Start now</span></a>
+<header class="grid">
+    <div class="grid__container grid__container--about">
+        <div class="about__header">
+            <h1 class="heading--tertiary"><span class="heading--primary">About us</span> Brain Octopus</h1>
+            <a class="btn-primary" href="#authors"><span>Go to authors</span></a>
+        </div>
+        <div class="about__hero">
+            <img alt="" src="assets/images/about.png">
+            <div class="about__label"><span>meet our team</span><span>brain octopus</span></div>
         </div>
     </div>
 </header>
-
-<section class="search">
-    <h2>
-        <label for="search">Find a course</label>
-    </h2>
-
-    <div class="search__form">
-        <form action="">
-            <input id="search" name="search" placeholder="Osetopathy, etc..." type="text"/>
-            <button class="btn-primary" type="submit"><span>Search</span></button>
-        </form>
-    </div>
-</section>
-
 <section class="grid">
-    <h2 class="heading--primary">Pricing</h2>
-    <p class="subtitle">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem
-        eos. </p>
-
-    <div class="pricing">
-        <div class="pricing__item">
-            <div class="pricing__item--logo"><img src="assets/images/logo_selected_onblack.png"
-                                                  alt="brain octopus logo"></div>
-            <div class="pricing__item--title"><p>Basic</p></div>
-            <div class="pricing__item--price"><p>Free</p></div>
-            <div class="pricing__item--features">
-                <ul>
-                    <li>Access to trailers</li>
-                </ul>
-            </div>
-            <div class="pricing__item--cta">
-                <a class="btn-tertiary" href="/">Explore movies</a>
-            </div>
+    <h1 class="heading--tertiary"><span class="heading--primary">How we work</span> Our philosophy</h1>
+    <div class="about__container">
+        <div class="text-box">
+            <p>
+                Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar sit massa
+                imperdiet pellentesque etiam pharetra egestas. Vitae eleifend venenatis morbi pellentesque adipiscing
+                feugiat. A purus a quis sollicitudin. </p>
+            <p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar sit massa
+                imperdiet.Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar
+                sit massa imperdiet pellentesque etiam pharetra egestas. Vitae eleifend venenatis morbi pellentesque
+                adipiscing feugiat. A purus a quis sollicitudin.
+            </p>
         </div>
-        <div class="pricing__item">
-            <div class="pricing__item--logo"><img src="assets/images/logo_selected_onblack.png"
-                                                  alt="brain octopus logo"></div>
-            <div class="pricing__item--title"><p>Courses on demand</p></div>
-            <div class="pricing__item--price"><p>10 <span class="currency">€</span></p></div>
-            <div class="pricing__item--features">
-                <ul>
-                    <li>Access to trailers</li>
-                    <li>Full access to all courses</li>
-                </ul>
-            </div>
-            <div class="pricing__item--cta">
-                <a class="btn-tertiary" href="/">Log in</a>
-                <a class="btn-tertiary" href="/">Sign up</a>
-            </div>
-        </div>
-        <div class="pricing__item main">
-            <div class="pricing__item--logo"><img src="assets/images/logo_selected_onblack.png"
-                                                  alt="brain octopus logo"></div>
-            <div class="pricing__item--title"><p>Premium user</p></div>
-            <div class="pricing__item--price"><p>90 <span class="currency">€</span></p><div class="interval">/ monthly</div></div>
-            <div class="pricing__item--features">
-                <ul>
-                    <li>Access to trailers</li>
-                    <li>Full access to all courses</li>
-                    <li>Access to the history of viewed courses</li>
-                </ul>
-            </div>
-            <div class="pricing__item--cta">
-                <a class="btn-primary" href="/"><span>Buy premium</span></a>
-            </div>
+        <div class="text-box">
+            <p>
+                Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar sit massa
+                imperdiet.Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar
+                sit
+                massa imperdiet pellentesque etiam pharetra egestas. Vitae eleifend venenatis morbi pellentesque
+                adipiscing
+                feugiat. A purus a quis sollicitudin.
+            </p>
+            <p>Vitae eleifend venenatis morbi pellentesque adipiscing feugiat. A purus a quis sollicitudin.</p>
         </div>
     </div>
-
 </section>
+<section class="full dark-bg" id="authors">
+    <h2 class="heading--primary">Our Authors</h2>
+    <p class="subtitle">
+        Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos.
+    </p>
+    <div class="grid-4">
+        <div class="person-item">
+            <div class="person-item__image"><img alt="" src="assets/images/philip.png"></div>
+            <div>
+                <h4 class="heading--primary">Philip Van Caille</h4>
+                <div class="vertical-center mt-1"><img alt="" src="assets/images/logo_selected_onblack-xs.png">
+                    <p>Author</p></div>
+            </div>
 
-<section class="numbers">
-    <div class="wrapper">
-
-        <div class="numbers__item">
-            <div class="numbers__count"><span class="num">42</span></div>
-            <div class="numbers__title">movies</div>
+            <div><p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam...</p></div>
+            <div>
+                <a class="btn-tertiary" href="/">See courses</a>
+                <a class="btn-secondary" href="#"><span class="heading--primary">Bio</span></a>
+            </div>
         </div>
+        <div class="person-item">
+            <div class="person-item__image"><img alt="" src="assets/images/philip.png"></div>
+            <div>
+                <h4 class="heading--primary">Philip Van Caille</h4>
+                <div class="vertical-center mt-1"><img alt="" src="assets/images/logo_selected_onblack-xs.png">
+                    <p>Author</p></div>
+            </div>
 
-        <div class="numbers__item">
-            <div class="numbers__count"><span class="num">12</span></div>
-            <div class="numbers__title">authors</div>
+            <div><p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam...</p></div>
+            <div>
+                <a class="btn-tertiary" href="/">See courses</a>
+                <a class="btn-secondary" href="#"><span class="heading--primary">Bio</span></a>
+            </div>
         </div>
+        <div class="person-item">
+            <div class="person-item__image"><img alt="" src="assets/images/stephanie-liverani-Zz5LQe-VSMY-unsplash.png">
+            </div>
+            <div>
+                <h4 class="heading--primary">Philip Van Caille</h4>
+                <div class="vertical-center mt-1"><img alt="" src="assets/images/logo_selected_onblack-xs.png">
+                    <p>Author</p></div>
+            </div>
 
-        <div class="numbers__item">
-            <div class="numbers__count"><span class="num">1032</span></div>
-            <div class="numbers__title">minutes</div>
+            <div><p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam...</p></div>
+            <div>
+                <a class="btn-tertiary" href="/">See courses</a>
+                <a class="btn-secondary" href="#"><span class="heading--primary">Bio</span></a>
+            </div>
         </div>
+        <div class="person-item">
+            <div class="person-item__image"><img alt="" src="assets/images/philip.png"></div>
+            <div>
+                <h4 class="heading--primary">Philip Van Caille</h4>
+                <div class="vertical-center mt-1"><img alt="" src="assets/images/logo_selected_onblack-xs.png">
+                    <p>Author</p></div>
+            </div>
 
-        <div class="numbers__item">
-            <div class="numbers__count"><span class="num">10</span></div>
-            <div class="numbers__title">categories</div>
+            <div><p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam...</p></div>
+            <div>
+                <a class="btn-tertiary" href="/">See courses</a>
+                <a class="btn-secondary" href="#"><span class="heading--primary">Bio</span></a>
+            </div>
         </div>
+        <div class="person-item">
+            <div class="person-item__image"><img alt="" src="assets/images/stephanie-liverani-Zz5LQe-VSMY-unsplash.png">
+            </div>
+            <div>
+                <h4 class="heading--primary">Philip Van Caille</h4>
+                <div class="vertical-center mt-1"><img alt="" src="assets/images/logo_selected_onblack-xs.png">
+                    <p>Author</p></div>
+            </div>
 
+            <div><p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam...</p></div>
+            <div>
+                <a class="btn-tertiary" href="/">See courses</a>
+                <a class="btn-secondary" href="#"><span class="heading--primary">Bio</span></a>
+            </div>
+        </div>
+        <div class="person-item">
+            <div class="person-item__image"><img alt="" src="assets/images/philip.png"></div>
+            <div>
+                <h4 class="heading--primary">Philip Van Caille</h4>
+                <div class="vertical-center mt-1"><img alt="" src="assets/images/logo_selected_onblack-xs.png">
+                    <p>Author</p></div>
+            </div>
+
+            <div><p>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam...</p></div>
+            <div>
+                <a class="btn-tertiary" href="/">See courses</a>
+                <a class="btn-secondary" href="#"><span class="heading--primary">Bio</span></a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -158,6 +185,7 @@
         eos. </p>
     <a class="btn-primary" href="/"><span>Start now</span></a>
 </section>
+
 <section class="faq">
     <h2>Frequently asked questions</h2>
 
@@ -296,7 +324,6 @@
 
 
 </section>
-
 <footer class="footer">
     <div class="footer__container">
         <div class="footer__wrapper footer__wrapper--top">
@@ -382,10 +409,6 @@
     </div>
 </footer>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
 <script src="script/main.js"></script>
-
-
 </body>
 </html>

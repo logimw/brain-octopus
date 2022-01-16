@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login page &mdash; Brain Octopus</title>
+    <title>Sign up page &mdash; Brain Octopus</title>
     <meta
             content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
             name="viewport"
@@ -47,12 +47,12 @@
 </nav>
 <header class="grid screen">
     <div class="grid__container">
-        <h1 class="heading--tertiary"><span class="heading--primary">log in to</span> your account</h1>
+        <h1 class="heading--tertiary"><span class="heading--primary">Create your</span> new account</h1>
         <div class="form-container">
-            <form action="" class="form__login" id="formLogin">
+            <form action="" class="form__login" id="formSignUp">
                 <div class="form__group">
                     <input class="form__input" id="name" name="name" required type="text">
-                    <label class="form__label" for="name">Login / e-mail</label>
+                    <label class="form__label" for="name">Type your e-mail</label>
                 </div>
                 <div class="form__group">
                     <svg class="password-icon" data-password="show">
@@ -64,13 +64,25 @@
                     <input class="form__input" id="password" name="password" required type="password">
                     <label class="form__label" for="password">Password</label>
                 </div>
-                <div class="form__buttons">
-                    <button class="btn-primary" type="submit"><span>Log In</span></button>
-                    <a class="btn-secondary" href="#"><span>Forgot password?</span></a>
+                <div class="form__group">
+                    <svg class="password-icon" data-password-confirm="show">
+                        <use xlink:href="assets/svg/symbol-defs.svg#eye"></use>
+                    </svg>
+                    <svg class="password-icon hide" data-password-confirm="hide">
+                        <use xlink:href="assets/svg/symbol-defs.svg#eye-slash"></use>
+                    </svg>
+                    <input class="form__input" id="passwordConfirm" name="passwordConfirm" required type="password">
+                    <label class="form__label" for="passwordConfirm">Repeat password</label>
                 </div>
+                <div class="form__group">
+                    <input class="form__input--checkbox" id="agreement" required type="checkbox">
+                    <label class="form__label--checkbox" for="agreement">
+                        <span class="vertical-center">I agree with the <a href="/">terms and conditions.</a></span></label>
+                </div>
+                <button class="btn-primary" type="submit"><span>Sign up</span></button>
             </form>
             <div class="mt-2">
-                <p>Don’t have an account? <a href="/">Sign up now</a></p>
+                <p>Already a member? <a href="./login.html">Log in to your account</a></p>
             </div>
         </div>
     </div>
@@ -92,6 +104,7 @@
     <div class="bg__item"><img alt="" src="assets/images/img-bg-1.png"></div>
     <div class="bg__item"><img alt="" src="assets/images/img-bg-2.png"></div>
     <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+
     <div class="bg__shadow"></div>
 </div>
 <footer class="footer">

@@ -12,8 +12,56 @@
   z-index: -1;
   overflow: hidden;
 
+  &.home-header {
+    top: -50%;
+    left: 0;
+    width: 90vw;
+    //grid-template-columns: repeat(3, 1fr);
+    .bg__shadow {
+      background-image: radial-gradient(circle farthest-corner at 60% 0%, rgba(10, 203, 255, 0.25) 10%, rgba(25, 28, 33, 0.1) 50%, rgba(25, 28, 33, 0.2) 80%), linear-gradient(90deg, #191c21 5%, rgba(25, 28, 33, 0) 40%), linear-gradient(0deg, #191c21 0%, rgba(25, 28, 33, 0) 50%);
+    }
+
+    .bg__item {
+      width: 60rem;
+    }
+  }
+
   &__item {
-    border: 5px solid rgba($secondary, .3);
+    border: 10px solid rgba($secondary, .3);
+    position: relative;
+
+    &.poster {
+      border: 10px solid rgba($secondary, 1);
+      z-index: 2;
+
+      .poster__label {
+        position: absolute;
+        height: 10rem;
+        width: 25rem;
+        bottom: -20px;
+        left: -20px;
+        background-color: $secondary;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 2.5rem;
+
+        span {
+          font-weight: 400;
+          color: $gray-dark-1;
+
+          &:first-child {
+            font-size: 3rem;
+            font-family: 'Norwester', sans-serif;
+          }
+
+          &:last-child {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
 
     img {
       width: 100%;
@@ -27,5 +75,6 @@
     width: 100%;
     position: absolute;
     background-image: radial-gradient(circle farthest-corner at 60% 0%, rgba(10, 203, 255, 0.25) 10%, rgba(25, 28, 33, 0.1) 50%, rgba(25, 28, 33, 0.2) 80%);
+
   }
 }

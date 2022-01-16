@@ -3,6 +3,7 @@
   grid-column: container-start / container-end;
   display: flex;
   align-items: center;
+  position: relative;
 
   &__text-box {
     max-width: 56rem;

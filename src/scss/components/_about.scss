@@ -1,0 +1,70 @@
+.about {
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-gap: 7.5rem;
+  }
+
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+
+    @include sm-desktop {
+      margin-bottom: 5rem;
+    }
+
+    a {
+      margin-top: 2.5rem;
+    }
+  }
+
+  &__hero {
+    border: 10px solid $secondary;
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+
+    @include sm-desktop {
+      grid-row: 2;
+      grid-column: 1 / 2;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__label {
+    position: absolute;
+    height: 10rem;
+    width: 25rem;
+    bottom: -20px;
+    left: -20px;
+    background-color: $secondary;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+      font-family: 'Norwester', sans-serif;
+      font-size: 3rem;
+      font-weight: 400;
+      display: inline-block;
+
+      &:first-child {
+        color: $gray-dark-1;
+      }
+      &:last-child {
+        color: $primary;
+      }
+    }
+  }
+}

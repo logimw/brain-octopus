@@ -112,44 +112,59 @@ if (items.length > 0) {
         }
     });
 }
+const formLogin = document.getElementById("formLogin"),
+    formSignUp = document.getElementById("formSignUp");
 
-const formLogin = document.getElementById("formLogin");
+if (formLogin || formSignUp) {
+    const form = document.querySelector("header form");
+    const showConfirm = document.querySelector("[data-password-confirm='show']"),
+        hideConfirm = document.querySelector("[data-password-confirm='hide']"),
+        pwd = document.getElementById("password"),
+        pwdConfirm = document.getElementById("passwordConfirm"),
+        show = document.querySelector("[data-password='show']"),
+        hide = document.querySelector("[data-password='hide']");
 
-if (formLogin) {
-    const showPwd = document.getElementById("showPassword"),
-        hidePwd = document.getElementById("hidePassword"),
-        pwd = document.getElementById("password");
+    const showPassword = (show, hide, input) => {
+        show.classList.add("hide");
+        hide.classList.remove("hide");
+        input.setAttribute("type", "text");
+    }
 
-    formLogin.addEventListener("click", e => {
+    const hidePassword = (show, hide, input) => {
+        show.classList.remove("hide");
+        hide.classList.add("hide");
+        input.setAttribute("type", "password");
+    }
+
+    form.addEventListener("click", e => {
         let svg = e.target.closest('svg');
-        console.log(e.target);
-        console.log(svg)
         if (!svg) return;
-        console.log("===")
         if (e.target.nodeName === "use") {
-            console.log(e.target.parentElement);
-            if (e.target.parentElement.id === "showPassword") {
-                showPwd.classList.add("hide");
-                hidePwd.classList.remove("hide");
-                pwd.setAttribute("type", "text");
+            if (e.target.parentElement.getAttribute("data-password") === "show") {
+                showPassword(show, hide, pwd);
             }
-            if (e.target.parentElement.id === "hidePassword") {
-                showPwd.classList.remove("hide");
-                hidePwd.classList.add("hide");
-                pwd.setAttribute("type", "password");
+            if (e.target.parentElement.getAttribute("data-password") === "hide") {
+                hidePassword(show, hide, pwd);
+            }
+            if (e.target.parentElement.getAttribute("data-password-confirm") === "show") {
+                showPassword(showConfirm, hideConfirm, pwdConfirm);
+            }
+            if (e.target.parentElement.getAttribute("data-password-confirm") === "hide") {
+                hidePassword(showConfirm, hideConfirm, pwdConfirm);
             }
         }
         if (e.target.nodeName === "svg") {
-            e.stopPropagation();
-            if (e.target.id === "showPassword") {
-                showPwd.classList.add("hide");
-                hidePwd.classList.remove("hide");
-                pwd.setAttribute("type", "text");
+            if (e.target.getAttribute("data-password") === "show") {
+                showPassword(show, hide, pwd);
             }
-            if (e.target.id === "hidePassword") {
-                showPwd.classList.remove("hide");
-                hidePwd.classList.add("hide");
-                pwd.setAttribute("type", "password");
+            if (e.target.getAttribute("data-password") === "hide") {
+                hidePassword(show, hide, pwd);
+            }
+            if (e.target.getAttribute("data-password-confirm") === "show") {
+                showPassword(showConfirm, hideConfirm, pwdConfirm);
+            }
+            if (e.target.getAttribute("data-password-confirm") === "hide") {
+                hidePassword(showConfirm, hideConfirm, pwdConfirm);
             }
         }
     })
