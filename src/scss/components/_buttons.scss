@@ -239,6 +239,7 @@
   overflow: hidden;
   background-color: transparent;
   transition: background-color 300ms, box-shadow 300ms, color 300ms;
+  cursor: pointer;
 
   &:hover {
     color: $primary;

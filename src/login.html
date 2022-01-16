@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact page &mdash; Brain Octopus</title>
+    <title>Login page &mdash; Brain Octopus</title>
     <meta
             content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
             name="viewport"
@@ -45,40 +45,54 @@
         </div>
     </div>
 </nav>
-<header class="grid">
-    <div class="grid__container center">
-        <h1 class="heading--primary">Get in touch with us</h1>
+<header class="grid screen">
+    <div class="grid__container">
+        <h1 class="heading--tertiary"><span class="heading--primary">log in to</span> your account</h1>
         <div class="form-container">
-            <form action="" class="form">
+            <form action="" class="form__login" id="formLogin">
                 <div class="form__group">
                     <input class="form__input" id="name" name="name" required type="text">
-                    <label class="form__label" for="name">Type your full name</label>
+                    <label class="form__label" for="name">Login / e-mail</label>
                 </div>
                 <div class="form__group">
-                    <input class="form__input" id="email" name="email" required type="text">
-                    <label class="form__label" for="email">Type your e-mail address</label>
+                    <svg class="password-icon" id="showPassword">
+                        <use xlink:href="assets/svg/symbol-defs.svg#eye"></use>
+                    </svg>
+                    <svg class="password-icon hide" id="hidePassword">
+                        <use xlink:href="assets/svg/symbol-defs.svg#eye-slash"></use>
+                    </svg>
+                    <input class="form__input" id="password" name="password" required type="password">
+                    <label class="form__label" for="password">Password</label>
                 </div>
-                <div class="form__group">
-                    <textarea class="form__input" cols="30" id="message" name="message" rows="10" required></textarea>
-                    <label class="form__label" for="message">Type your message</label>
+                <div class="form__buttons">
+                    <button class="btn-primary" type="submit"><span>Log In</span></button>
+                    <a class="btn-secondary" href="#"><span>Forgot password?</span></a>
                 </div>
-                <div class="form__group">
-                    <input class="form__input--checkbox" id="agreement" type="checkbox" required>
-                    <label class="form__label--checkbox" for="agreement"><span>Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar sit massa imperdiet pellentesque etiam pharetra egestas. Vitae eleifend venenatis morbi pellentesque adipiscing feugiat. A purus a quis sollicitudin.</span></label>
-                </div>
-                <button class="btn-primary" type="submit"><span>Send message</span></button>
             </form>
         </div>
+        <p>Don’t have an account? <a href="/">Sign up now</a></p>
     </div>
 </header>
-<section class="cta" style="background-image: url('assets/images/shutterstock_322360979 1.png')">
-    <h2><span class="heading--primary">Become a premium</span><br>
-        to get an acces to over <span class="heading--primary">50 movies</span></h2>
-    <p class="subtitle">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas
-        platonem
-        eos. </p>
-    <a class="btn-primary" href="/"><span>Start now</span></a>
-</section>
+<div class="bg">
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-1.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-2.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-1.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-2.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-1.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-2.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-1.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-2.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-1.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-2.png"></div>
+    <div class="bg__item"><img alt="" src="assets/images/img-bg-3.png"></div>
+
+    <div class="bg__shadow"></div>
+</div>
 <footer class="footer">
     <div class="footer__container">
         <div class="footer__wrapper footer__wrapper--top">
@@ -163,5 +177,6 @@
         </div>
     </div>
 </footer>
+<script src="script/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+.bg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 75%;
+  max-height: 85vh;
+  height: calc(100vh - 20rem);
+  z-index: -1;
+  overflow: hidden;
+
+  &__item {
+    border: 5px solid rgba($secondary, .3);
+
+    img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+
+  &__shadow {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: radial-gradient(circle farthest-corner at 60% 0%, rgba(10, 203, 255, 0.25) 10%, rgba(25, 28, 33, 0.1) 50%, rgba(25, 28, 33, 0.2) 80%);
+  }
+}
