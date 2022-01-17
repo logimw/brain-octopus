@@ -169,3 +169,12 @@ if (formLogin || formSignUp) {
         }
     })
 }
+
+
+const burger = document.getElementById("burger"),
+    navList = document.querySelector(".nav__menu");
+burger.addEventListener("click", e => {
+    e.target.closest("button").classList.contains("open") ? (burger.classList.remove("open"), navList.classList.remove("mobile-on")) : (burger.classList.add("open"), navList.classList.add("mobile-on"))
+}), navList.addEventListener("click", e => {
+    "A" === e.target.tagName && (burger.classList.contains("open") ? (burger.classList.remove("open"), navList.classList.remove("mobile-on")) : (burger.classList.add("open"), navList.classList.add("mobile-on")))
+});
