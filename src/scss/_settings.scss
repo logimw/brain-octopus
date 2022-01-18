@@ -10,6 +10,10 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+
+  @include desktop {
+    font-size: 55%;
+  }
 }
 
 body {

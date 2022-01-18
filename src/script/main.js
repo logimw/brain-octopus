@@ -178,3 +178,12 @@ burger.addEventListener("click", e => {
 }), navList.addEventListener("click", e => {
     "A" === e.target.tagName && (burger.classList.contains("open") ? (burger.classList.remove("open"), navList.classList.remove("mobile-on")) : (burger.classList.add("open"), navList.classList.add("mobile-on")))
 });
+
+ScrollTrigger.create({
+    start: "top -80",
+    end: 99999,
+    toggleClass: {
+        className: "scrolled",
+        targets: ".nav"
+    },
+});

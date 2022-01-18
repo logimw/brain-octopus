@@ -12,6 +12,10 @@
     grid-template-rows: repeat(3, 1fr);
     column-gap: 12rem;
 
+    @include desktop {
+      column-gap: 4rem;
+    }
+
     @include tablet {
       column-gap: 2.5rem;
     }

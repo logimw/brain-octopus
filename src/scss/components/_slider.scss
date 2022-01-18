@@ -2,6 +2,10 @@
   position: relative;
   margin: 8rem 0 5rem;
 
+  @include desktop {
+    padding: 0 9rem;
+  }
+
   .course-card__item {
     margin: .5rem;
 
