@@ -47,10 +47,13 @@
     }
 
     &--price {
-      color: $primary;
-      font-family: 'Norwester', sans-serif;
-      font-size:  6rem;
-      font-weight: 400;
+      p {
+        color: $primary;
+        font-family: 'Norwester', sans-serif;
+        font-size:  6rem;
+        font-weight: 400;
+      }
+
 
       .currency {
         font-size: 4rem;

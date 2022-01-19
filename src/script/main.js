@@ -9,7 +9,7 @@ if (swiper) {
             prevEl: '#slider1 .swiper-button-prev',
         },
         breakpoints: {
-            480: {
+            565: {
                 slidesPerView: 2,
             },
             1350: {
@@ -37,7 +37,7 @@ if (swiper) {
             prevEl: '#slider3 .swiper-button-prev',
         },
         breakpoints: {
-            480: {
+            565: {
                 slidesPerView: 2,
             },
             1350: {
@@ -54,7 +54,7 @@ if (swiper) {
             prevEl: '#slider1 .swiper-button-prev',
         },
         breakpoints: {
-            480: {
+            565: {
                 slidesPerView: 2,
             },
             1350: {
@@ -70,7 +70,7 @@ if (swiper) {
             prevEl: '#slider2 .swiper-button-prev',
         },
         breakpoints: {
-            480: {
+            565: {
                 slidesPerView: 2,
             },
             1350: {
@@ -86,7 +86,7 @@ if (swiper) {
             prevEl: '#slider3 .swiper-button-prev',
         },
         breakpoints: {
-            480: {
+            565: {
                 slidesPerView: 2,
             },
             1350: {

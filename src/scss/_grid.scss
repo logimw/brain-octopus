@@ -1,7 +1,11 @@
 .container {
-  height: 100vh;
+  height: 175vh;
   display: grid;
   grid-template-columns: 1.5rem [full-start] minmax(3rem, 1fr) [container-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [container-end] minmax(3rem, 1fr) [full-end] 1.5rem;
+
+  @include sm-desktop {
+    grid-template-columns: 1.5rem [full-start] 1fr [container-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [container-end] 1fr [full-end] 1.5rem;
+  }
 }
 
 
@@ -14,9 +18,14 @@
     grid-gap: 2.5rem;
     margin: 7.5rem 0;
 
+    &--about {
+      margin: 15rem 0 10rem;
+    }
+
     &.center {
       justify-items: center;
     }
+
     .course-card__item--description {
       text-align: center;
     }
@@ -29,6 +38,11 @@
   margin: 5rem auto 0;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   grid-gap: 2.5rem;
+
+  @include desktop {
+    max-width: unset;
+    padding: 0 1.5rem;
+  }
 }
 
 .wrapper {

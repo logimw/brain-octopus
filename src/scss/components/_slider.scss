@@ -44,6 +44,14 @@
   &__container {
     max-width: 120rem;
     margin: 0 auto;
+
+    @include sm-desktop {
+      max-width: 70rem;
+    }
+
+    @include tablet {
+      max-width: 45rem;
+    }
   }
 
   &__navigation {
