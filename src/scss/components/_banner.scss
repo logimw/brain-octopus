@@ -27,7 +27,7 @@
     margin-left: 5%;
 
     @include tablet {
-      width: 100%;
+      width: 90%;
     }
 
     h3 {
@@ -35,7 +35,7 @@
     }
   }
 
-  &__data > *{
+  &__data > * {
       margin-bottom: 2rem;
   }
 
@@ -61,6 +61,7 @@
 
   &__tags {
     display: flex;
+    flex-wrap: wrap;
   }
 
   &__author {
@@ -79,6 +80,9 @@
     border-radius: 20px;
     background-color: rgba($tertiary, .5);
     color: $gray-dark-2;
+    @include tablet {
+      margin-bottom: .75rem;
+    }
 
     &:not(:last-child) {
       margin-right: 1rem;

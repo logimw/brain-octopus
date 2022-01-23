@@ -5,6 +5,16 @@
   @include desktop {
     padding: 0 9rem;
   }
+  @include tablet {
+    padding: 0 4.5rem;
+  }
+  @include mobile {
+    padding: 0 4rem;
+  }
+
+  @include sm-mobile {
+    padding: 0 1.5rem;
+  }
 
   .course-card__item {
     margin: .5rem;
@@ -50,7 +60,11 @@
     }
 
     @include tablet {
-      max-width: 45rem;
+      max-width: 40rem;
+    }
+
+    @include mobile {
+      max-width: 35rem;
     }
   }
 
@@ -65,16 +79,24 @@
       display: none;
     }
 
-    @include mobile {
-      transform: scale(.75);
-    }
-
     &.swiper-button-prev {
       left: 0;
+      justify-content: flex-start;
+      img {
+        @include tablet {
+          width: 50%;
+        }
+      }
     }
 
     &.swiper-button-next {
       right: 0;
+      justify-content: flex-end;
+      img {
+        @include tablet {
+          width: 50%;
+        }
+      }
     }
   }
 
