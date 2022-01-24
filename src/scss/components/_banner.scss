@@ -8,9 +8,70 @@
     position: relative;
     margin-top: 2.5rem;
   }
-  
+
   &__wrapper {
     position: relative;
+
+    img, video {
+      width: 100%;
+      @include tablet {
+        min-height: 20rem;
+      }
+    }
+
+    img.play-btn {
+      @include tablet {
+        min-height: unset;
+      }
+    }
+  }
+
+  &__locked {
+    position: relative;
+  }
+
+  &__cta {
+    background: rgba($tertiary, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-family: 'Norwester', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5rem;
+      color: $secondary;
+      text-align: center;
+
+      @include tablet {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  &__buttons {
+    margin-top: 2.5rem;
+    text-align: center;
+
+    a {
+      @include tablet {
+        padding: 1rem 2rem;
+      }
+    }
+
+    :first-child {
+      margin-right: 2.5rem;
+      @include mobile {
+        margin-right: 1rem;
+      }
+    }
   }
 
   &__img {
@@ -36,7 +97,7 @@
   }
 
   &__data > * {
-      margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
   &__title {

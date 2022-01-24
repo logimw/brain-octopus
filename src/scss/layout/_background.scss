@@ -16,6 +16,10 @@
     height: 100vh;
   }
 
+  @include lg-desktop {
+    max-height: unset;
+  }
+
   @include mobile {
     left: 0;
     width: 135%;
@@ -29,6 +33,9 @@
 
     @include xl-desktop {
       top: -75%;
+    }
+    @include tablet {
+      display: none;
     }
     .bg__shadow {
       background-image: radial-gradient(circle farthest-corner at 60% 0%, rgba(10, 203, 255, 0.25) 10%, rgba(25, 28, 33, 0.1) 50%, rgba(25, 28, 33, 0.2) 80%), linear-gradient(90deg, #191c21 5%, rgba(25, 28, 33, 0) 40%), linear-gradient(0deg, #191c21 0%, rgba(25, 28, 33, 0) 50%);
@@ -46,6 +53,14 @@
     &.poster {
       border: 10px solid rgba($secondary, 1);
       z-index: 2;
+
+      &--mobile {
+        display: none;
+        @include tablet {
+          display: block;
+          margin-top: 1.5rem;
+        }
+      }
 
       .poster__label {
         position: absolute;

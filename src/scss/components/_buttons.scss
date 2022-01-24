@@ -272,6 +272,17 @@
     background-color: rgba($secondary, 1);
     box-shadow: 3px 3px 9px rgba($secondary, .1);
   }
+
+  &--white {
+    color: $tertiary;
+    background-color: rgba($secondary, 1);
+    border: 1px solid $secondary;
+
+    &:hover {
+      color: $secondary;
+      background-color: rgba($secondary, 0);
+    }
+  }
 }
 
 .play-btn {
@@ -279,4 +290,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  max-width: 13.5rem;
+  @include tablet {
+    max-width: 8rem;
+  }
 }

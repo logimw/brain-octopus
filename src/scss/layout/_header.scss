@@ -7,8 +7,16 @@
   margin-top: 25rem;
   margin-bottom: 15rem;
 
+  @include tablet {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+  }
+
   &__text-box {
     max-width: 56rem;
+    @include tablet {
+      text-align: center;
+    }
   }
 
   &__cta {

@@ -11,14 +11,16 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     column-gap: 12rem;
+    padding-bottom: 4rem;
 
     @include desktop {
       column-gap: 4rem;
     }
 
     @include tablet {
-      column-gap: 2.5rem;
       padding-bottom: 8rem;
+      gap: 2.5rem;
+
     }
 
     &--description {
