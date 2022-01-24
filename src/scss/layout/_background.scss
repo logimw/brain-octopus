@@ -20,7 +20,7 @@
     max-height: unset;
   }
 
-  @include mobile {
+  @include tablet {
     left: 0;
     width: 135%;
   }

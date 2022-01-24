@@ -39,6 +39,10 @@ p {
   &--secondary {
     font-size: 10rem;
     color: $orange;
+
+    @include tablet {
+      font-size: 6rem;
+    }
   }
 
   &--tertiary {
@@ -87,6 +91,10 @@ section {
   h3 {
     font-family: 'Norwester', sans-serif;
     font-size: 6rem;
+
+    @include tablet {
+      font-size: 4rem;
+    }
   }
 
   h4 {
