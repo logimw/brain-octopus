@@ -5,6 +5,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/font/Montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/font/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
 p {
   color: $secondary;
   font-size: 1.6rem;

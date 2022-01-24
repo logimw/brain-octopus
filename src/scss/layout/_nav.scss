@@ -165,6 +165,14 @@
 
   &__logo {
     z-index: 101;
+
+    img {
+      max-width: 18rem;
+
+      @include sm-desktop {
+        max-width: 16.5rem;
+      }
+    }
   }
 
   &__item {

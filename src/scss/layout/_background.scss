@@ -29,6 +29,7 @@
     top: -50%;
     left: 200px;
     width: 80vw;
+    z-index: 10;
     //grid-template-columns: repeat(3, 1fr);
 
     @include xl-desktop {
@@ -52,7 +53,8 @@
 
     &.poster {
       border: 10px solid rgba($secondary, 1);
-      z-index: 2;
+      z-index: 1001;
+      cursor: pointer;
 
       &--mobile {
         display: none;
@@ -91,7 +93,7 @@
       }
     }
 
-    img {
+    &--poster {
       width: 100%;
       object-fit: cover;
       height: 100%;

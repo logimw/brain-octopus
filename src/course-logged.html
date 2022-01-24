@@ -8,10 +8,7 @@
             name="viewport"
     />
     <link href="assets/images/fav.png" rel="shortcut icon" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
+    <link href="assets/styles/swiper-bundle.min.css" rel="stylesheet"/>
     <link href="scss/main.scss" rel="stylesheet">
 </head>
 <body class="container bg-gradient">
@@ -39,8 +36,18 @@
                 </ul>
             </div>
             <div class="double-btn">
-                <a class="double-btn--primary" href="./login.html">Log In</a>
-                <a class="double-btn--secondary" href="./signup.html"><span>Sign Up</span></a>
+                <a class="btn-logged" href="./login.html">
+                    <svg>
+                        <use xlink:href="assets/svg/symbol-defs.svg#account"></use>
+                    </svg>
+                    <span>Account</span>
+                </a>
+                <a class="btn-logged" href="./signup.html">
+                    <svg>
+                        <use xlink:href="assets/svg/symbol-defs.svg#logout"></use>
+                    </svg>
+                    <span>Logout</span>
+                </a>
             </div>
         </div>
     </div>
@@ -65,9 +72,12 @@
             <div class="banner__tag"><a href="/">norman</a></div>
             <div class="banner__tag"><a href="/">osteopathy</a></div>
         </div>
-        <div class="course-card__item--description">Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam. Ultrices pellentesque pulvinar sit massa imperdiet pellentesque etiam pharetra egestas. Vitae eleifend venenatis morbi pellentesque adipiscing feugiat. A purus a quis sollicitudin.
+        <div class="course-card__item--description">Nibh dictum pellentesque arcu enim hendrerit ac fames aliquam.
+            Ultrices pellentesque pulvinar sit massa imperdiet pellentesque etiam pharetra egestas. Vitae eleifend
+            venenatis morbi pellentesque adipiscing feugiat. A purus a quis sollicitudin.
         </div>
-        <div class="banner__wrapper"><img src="assets/images/img.png" alt="Course poster"><img src="assets/images/play.png" class="play-btn" alt="play button"></div>
+        <div class="banner__wrapper"><img src="assets/images/img.png" alt="Course poster"><img
+                src="assets/images/play.png" class="play-btn" alt="play button"></div>
     </div>
 
 </header>
@@ -75,18 +85,22 @@
     <div class="slider">
         <div class="slider__container">
             <div class="slider-author">
-                        <div class="author__item">
+                <div class="author__item">
 
-                            <div class="author__item--author">
-                                <h4 class="about-title">About author</h4>
-                                <h3 class="author__name">Philip Van Caille</h3>
-                                </div>
-                            <div class="author__item--description">Et vim graeco principes dico nullam pri. Duo stet possim quaerendum eu, cum in invenire platonem animal assentior nam, sed qualisque deterruisset melius erroribus intellegebat, sed dico apeirian ei.  Et vim graeco principes dico nullam pri. Duo stet possim quaerendum eu, cum in invenire platonem animal assentior nam, sed qualisque deterruisset melius erroribus intellegebat, sed dico apeirian ei.
-                            </div>
-                            <div class="author__item--cover">
-                                <img src="assets/images/philip.png" alt="Philip Van Caille">
-                            </div>
-                        </div>
+                    <div class="author__item--author">
+                        <h4 class="about-title">About author</h4>
+                        <h3 class="author__name">Philip Van Caille</h3>
+                    </div>
+                    <div class="author__item--description">Et vim graeco principes dico nullam pri. Duo stet possim
+                        quaerendum eu, cum in invenire platonem animal assentior nam, sed qualisque deterruisset melius
+                        erroribus intellegebat, sed dico apeirian ei. Et vim graeco principes dico nullam pri. Duo stet
+                        possim quaerendum eu, cum in invenire platonem animal assentior nam, sed qualisque deterruisset
+                        melius erroribus intellegebat, sed dico apeirian ei.
+                    </div>
+                    <div class="author__item--cover">
+                        <img src="assets/images/philip.png" alt="Philip Van Caille">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -127,7 +141,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -149,7 +164,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -171,14 +187,16 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="course-card__item">
-                            <div class="course-card__item--cover"><img alt="Course author 4" src="assets/images/iStock_000020625031_Full.png">
+                            <div class="course-card__item--cover"><img alt="Course author 4"
+                                                                       src="assets/images/iStock_000020625031_Full.png">
                             </div>
                             <div class="course-card__item--author"><img alt="Mini logo of 'brain octopus'"
                                                                         src="assets/images/logo_selected_onblack-xs.png">
@@ -192,7 +210,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -214,7 +233,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -236,7 +256,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -258,7 +279,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                                 elit. Corporis excepturi nobis sed?
                             </div>
@@ -266,7 +288,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="course-card__item">
-                            <div class="course-card__item--cover"><img alt="Course author 8" src="assets/images/author.png">
+                            <div class="course-card__item--cover"><img alt="Course author 8"
+                                                                       src="assets/images/author.png">
                             </div>
                             <div class="course-card__item--author"><img alt="Mini logo of 'brain octopus'"
                                                                         src="assets/images/logo_selected_onblack-xs.png">
@@ -280,7 +303,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -323,7 +347,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -345,7 +370,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -367,14 +393,16 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="course-card__item">
-                            <div class="course-card__item--cover"><img alt="Course author 4" src="assets/images/author.png">
+                            <div class="course-card__item--cover"><img alt="Course author 4"
+                                                                       src="assets/images/author.png">
                             </div>
                             <div class="course-card__item--author"><img alt="Mini logo of 'brain octopus'"
                                                                         src="assets/images/logo_selected_onblack-xs.png">
@@ -388,7 +416,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -410,7 +439,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -432,7 +462,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -454,7 +485,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                                 elit. Corporis excepturi nobis sed?
                             </div>
@@ -462,7 +494,8 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="course-card__item">
-                            <div class="course-card__item--cover"><img alt="Course author 8" src="assets/images/author.png">
+                            <div class="course-card__item--cover"><img alt="Course author 8"
+                                                                       src="assets/images/author.png">
                             </div>
                             <div class="course-card__item--author"><img alt="Mini logo of 'brain octopus'"
                                                                         src="assets/images/logo_selected_onblack-xs.png">
@@ -476,7 +509,8 @@
                                     <span>Subtitles: EN/DE/PL</span>
                                 </div>
                             </div>
-                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            <div class="course-card__item--description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing
                                 elit. Corporis excepturi nobis sed?
                             </div>
                         </div>
@@ -719,8 +753,18 @@
                 </ul>
                 <div class="footer__content">
                     <div class="double-btn">
-                        <a class="double-btn--primary" href="./login.html">Log In</a>
-                        <a class="double-btn--secondary" href="./signup.html"><span>Sign Up</span></a>
+                        <a class="btn-logged" href="./login.html">
+                            <svg>
+                                <use xlink:href="assets/svg/symbol-defs.svg#account"></use>
+                            </svg>
+                            <span>Account</span>
+                        </a>
+                        <a class="btn-logged" href="./signup.html">
+                            <svg>
+                                <use xlink:href="assets/svg/symbol-defs.svg#logout"></use>
+                            </svg>
+                            <span>Logout</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -728,7 +772,9 @@
         </div>
     </div>
 </footer>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script/swiper-bundle.min.js"></script>
+<script src="script/gsap.min.js"></script>
+<script src="script/ScrollTrigger.min.js"></script>
 <script src="script/main.js"></script>
 </body>
 </html>
