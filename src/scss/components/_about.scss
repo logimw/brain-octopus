@@ -13,6 +13,12 @@
     flex-direction: column;
     justify-content: center;
 
+    .heading--tertiary {
+      @include sm-desktop {
+        align-self: start;
+      }
+    }
+
     @include sm-desktop {
       margin-bottom: 5rem;
     }
