@@ -44,6 +44,14 @@
 
     .bg__item {
       width: 50rem;
+
+      img {
+        &:not(.play-btn) {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+        }
+      }
     }
   }
 

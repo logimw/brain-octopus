@@ -14,7 +14,7 @@
 
   &__text-box {
     max-width: 56rem;
-    z-index: 101;
+    z-index: 99;
     @include tablet {
       text-align: center;
     }
