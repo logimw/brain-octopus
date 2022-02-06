@@ -16,6 +16,23 @@
     padding: 0 1.5rem;
   }
 
+  &__mask {
+    max-width: 126rem;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .swiper {
+      overflow: unset;
+      .swiper-slide {
+        transition: opacity 300ms;
+        opacity: 0;
+        &.show-slide {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
   .course-card__item {
     margin: .5rem;
 
@@ -103,6 +120,9 @@
 
   .slider-author {
     margin-top: 5rem;
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-clickable {
+      bottom: -10px;
+    }
 
     .swiper-pagination-bullet {
       background: transparent;
@@ -128,6 +148,5 @@
         width: 20px;
       }
     }
-
   }
 }

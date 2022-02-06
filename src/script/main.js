@@ -1,98 +1,40 @@
 const swiper = document.querySelector(".swiper");
 
 if (swiper) {
-    new Swiper("#slider1 #coursesSlider", {
-        slidesPerView: 1,
-        clickable: true,
-        navigation: {
-            nextEl: '#slider1 .swiper-button-next',
-            prevEl: '#slider1 .swiper-button-prev',
-        },
-        breakpoints: {
-            565: {
-                slidesPerView: 2,
+    const ids = ["coursesSlider", "medicalCoursesSlider", "osteopathyCoursesSlider", "educationalCoursesSlider", "sliderAuthorsMoreCourses", "sliderSimilarCourses"];
+    ids.forEach(slider => {
+        new Swiper(`#${slider} .swiper`, {
+            slidesPerView: 1,
+            clickable: true,
+            watchSlidesVisibility: true,
+            watchSlidesProgress: true,
+            slideVisibleClass: 'show-slide',
+            navigation: {
+                nextEl: `#${slider} .swiper-button-next`,
+                prevEl: `#${slider} .swiper-button-prev`,
             },
-            1350: {
-                slidesPerView: 4
+            breakpoints: {
+                565: {
+                    slidesPerView: 2,
+                },
+                1350: {
+                    slidesPerView: 4
+                }
             }
-        }
+        });
     });
-    new Swiper("#slider2 #authorsSlider", {
+
+    new Swiper("#authorsSlider .swiper", {
         slidesPerView: 1,
         clickable: true,
         navigation: {
-            nextEl: '#slider2 .swiper-button-next',
-            prevEl: '#slider2 .swiper-button-prev',
+            nextEl: '#authorsSlider .swiper-button-next',
+            prevEl: '#authorsSlider .swiper-button-prev',
         },
         pagination: {
             el: ".swiper-pagination",
             clickable: true,
         },
-    });
-    new Swiper("#slider3 #medicalCoursesSlider", {
-        slidesPerView: 1,
-        clickable: true,
-        navigation: {
-            nextEl: '#slider3 .swiper-button-next',
-            prevEl: '#slider3 .swiper-button-prev',
-        },
-        breakpoints: {
-            565: {
-                slidesPerView: 2,
-            },
-            1350: {
-                slidesPerView: 4
-            }
-        }
-    });
-
-    new Swiper("#slider1 #medicalCoursesSlider", {
-        slidesPerView: 1,
-        clickable: true,
-        navigation: {
-            nextEl: '#slider1 .swiper-button-next',
-            prevEl: '#slider1 .swiper-button-prev',
-        },
-        breakpoints: {
-            565: {
-                slidesPerView: 2,
-            },
-            1350: {
-                slidesPerView: 4
-            }
-        }
-    });
-    new Swiper("#slider2 #osteopathyCoursesSlider", {
-        slidesPerView: 1,
-        clickable: true,
-        navigation: {
-            nextEl: '#slider2 .swiper-button-next',
-            prevEl: '#slider2 .swiper-button-prev',
-        },
-        breakpoints: {
-            565: {
-                slidesPerView: 2,
-            },
-            1350: {
-                slidesPerView: 4
-            }
-        }
-    });
-    new Swiper("#slider3 #educationalCoursesSlider", {
-        slidesPerView: 1,
-        clickable: true,
-        navigation: {
-            nextEl: '#slider3 .swiper-button-next',
-            prevEl: '#slider3 .swiper-button-prev',
-        },
-        breakpoints: {
-            565: {
-                slidesPerView: 2,
-            },
-            1350: {
-                slidesPerView: 4
-            }
-        }
     });
 }
 
