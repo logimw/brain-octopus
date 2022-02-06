@@ -11,6 +11,35 @@
     }
   }
 
+  &__btn {
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    background-color: $gray-darkest;
+    position: absolute;
+    right: -63px;
+    transition: background-color 300ms;
+    &::before, &::after {
+      background: #00C7FE;
+      position: absolute;
+      content: "";
+      top: 50%;
+      height: 2px;
+      width: 15px;
+    }
+
+    &::before {
+      transition: transform 300ms ease;
+      transform: scaleX(1) translateX(-50%) translateY(0%) rotate(90deg);
+      left: 50%;
+    }
+
+    &::after {
+      transform: translate(-50%, -50%);
+      left: 50%;
+    }
+  }
+
   &__content {
     max-width: 58rem;
     margin-bottom: 1rem;
@@ -23,8 +52,6 @@
   }
 
   &__title {
-    font-size: 1.6rem;
-    font-weight: 700;
     cursor: pointer;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -33,28 +60,13 @@
     position: relative;
     height: 6rem;
 
+    p {
+      font-weight: 700;
+      font-size: 1.6rem;
+    }
+
     &::-webkit-details-marker {
       display: none;
-    }
-
-    &::before, &::after {
-      background: #00C7FE;
-      position: absolute;
-      content: "";
-      top: 50%;
-      height: 2px;
-      width: 15px;
-    }
-
-    &::before {
-      transition: transform 300ms ease;
-      transform: scaleX(1) rotate(90deg) translate(0%, -50%);
-      right: -37.5px;
-    }
-
-    &::after {
-      transform: translate(50%, -50%);
-      right: -30px;
     }
   }
 
@@ -74,9 +86,10 @@
     &[open] {
       background-color: $gray-dark;
 
-      & > .faq__title {
+      .faq__btn {
+        background-color: $gray-dark;
         &::before {
-          transform: scaleX(0);
+          transform: scale(0) translateX(-100%);
         }
       }
 
@@ -93,7 +106,7 @@
 
     &--block {
       display: block;
-      width: 6rem;
+      width: 65px;
       background-color: $gray-darkest;
       margin-left: 3px;
       transition: background-color 300ms;
