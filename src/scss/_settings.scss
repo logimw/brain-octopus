@@ -82,7 +82,8 @@ section {
 }
 
 .screen {
-  height: 75vh;
+  min-height: 75vh;
+  height: 100%;
 }
 
 // Utils
@@ -103,6 +104,11 @@ section {
 .vertical-center {
   display: flex;
   align-items: center;
+}
+
+.vertical-text-center {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .dev-hide {

@@ -100,6 +100,11 @@
   border: 1px solid $gray;
   cursor: pointer;
   position: relative;
+  transition: border-radius 300ms ease;
+
+  &:hover {
+    border-radius: 20px 20px 0 0;
+  }
 
   &__selected {
     color: $gray;
@@ -149,9 +154,11 @@
     width: 100%;
     box-shadow: 1px 1px 1px #333;
     list-style: none;
-    border-radius: 0 0 5px 0;
+    border-radius: 0 0 3px 3px;
     transform: translateY(-100%);
     opacity: 0;
+    border: 1px solid $gray;
+    background-color: $tertiary;
 
     li {
       border-radius: 0 0 5px 0;
