@@ -32,9 +32,32 @@ if (swiper) {
             prevEl: '#authorsSlider .swiper-button-prev',
         },
         pagination: {
-            el: ".swiper-pagination",
+            el: "#authorsSlider .swiper-pagination",
             clickable: true,
         },
+    });
+    new Swiper("#partnersSlider .swiper", {
+        slidesPerView: 2,
+        clickable: true,
+        pagination: {
+            el: "#partnersSlider .swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            565: {
+                slidesPerView: 3,
+            },
+            799: {
+                slidesPerView: 4,
+            },
+            1399: {
+                slidesPerView: 7
+            }
+        },
+        autoplay: {
+            delay: 3000,
+        },
+
     });
 }
 
