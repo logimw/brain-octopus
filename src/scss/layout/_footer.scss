@@ -39,6 +39,7 @@
 
     @include mobile {
       flex-wrap: wrap-reverse;
+      flex: 100%;
     }
   }
 
@@ -70,6 +71,10 @@
 
     @include mobile {
       margin-right: 0;
+      flex-direction: column;
+      text-align: center;
+      flex: 100%;
+      order: 2;
     }
 
     li {
@@ -82,6 +87,25 @@
     }
   }
 
+  &__content {
+    @include mobile {
+      order: 1;
+      flex: 100%;
+    }
+    .double-btn {
+      @include mobile {
+        margin-top: 3rem;
+        justify-content: center;
+      }
+      a[class^="double-btn"] {
+        @include mobile {
+          padding: 1rem 4rem;
+        }
+      }
+
+    }
+  }
+
   &__menu-item {
 
     margin-top: 2rem;
@@ -89,6 +113,9 @@
     > a {
       font-size: 1.4rem;
       font-weight: 700;
+      @include mobile {
+        font-size: 1.8rem;
+      }
     }
 
     a {
@@ -101,6 +128,9 @@
 
     &:not(:last-child) {
       margin-right: 4rem;
+      @include mobile {
+        margin-right: 0;
+      }
     }
   }
 
@@ -116,6 +146,9 @@
     a {
       font-size: 1.2rem;
       font-weight: 400;
+      @include mobile {
+        font-size: 1.6rem;
+      }
     }
   }
 

@@ -115,5 +115,8 @@
 
   &__subtitle {
     margin-top: 3rem;
+    @include tablet {
+      padding: 0 1.5rem;
+    }
   }
 }
