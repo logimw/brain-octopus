@@ -149,7 +149,9 @@
 
   .swiper-wrapper {
     padding-bottom: 4rem;
+    padding-top: 4rem;
     justify-content: space-between;
+    align-items: center;
     @include tablet {
       justify-content: unset;
     }
