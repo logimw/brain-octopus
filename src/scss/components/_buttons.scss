@@ -318,7 +318,17 @@
   left: 50%;
   transform: translate(-50%,-50%);
   max-width: 13.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: transparent;
   @include tablet {
     max-width: 8rem;
   }
+  &--img {
+    width: 100%;
+  }
 }
+
+
