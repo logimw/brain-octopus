@@ -7,6 +7,7 @@
     margin: 3rem 1rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
+    text-decoration: none;
 
     &::before {
       content: "";
@@ -24,8 +25,14 @@
     &--cover {
       border: 2px solid $secondary;
       height: 45rem;
+      overflow: hidden;
+
+      &:hover img {
+        transform: scale(1.05);
+      }
 
       img {
+        transition: transform 600ms;
         height: 100%;
         width: 100%;
         object-fit: cover;
