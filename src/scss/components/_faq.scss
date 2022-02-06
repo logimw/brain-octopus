@@ -19,6 +19,10 @@
     position: absolute;
     right: -63px;
     transition: background-color 300ms;
+
+    @include tablet {
+      right: -57px;
+    }
     &::before, &::after {
       background: #00C7FE;
       position: absolute;
