@@ -152,3 +152,14 @@ ScrollTrigger.create({
         targets: ".nav"
     },
 });
+
+const boxes = gsap.utils.toArray(".fade");
+boxes.forEach((e, t) => {
+    const o = gsap.fromTo(e, {autoAlpha: 0, y: 50}, {duration: 1, autoAlpha: 1, y: 0});
+    ScrollTrigger.create({trigger: e, animation: o, toggleActions: "play none none none"})
+});
+const animateChildrenFrom = e => {
+    gsap.from(e.children, {y: "50px", opacity: 0, stagger: .2, scrollTrigger: {trigger: e.children, markers: !1}})
+};
+const animateSequence = document.querySelector(".fade-sequence");
+if (animateSequence) animateChildrenFrom(animateSequence);
