@@ -40,6 +40,7 @@
     @include mobile {
       flex-wrap: wrap-reverse;
       flex: 100%;
+      justify-content: center;
     }
   }
 

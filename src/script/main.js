@@ -163,3 +163,16 @@ const animateChildrenFrom = e => {
 };
 const animateSequence = document.querySelector(".fade-sequence");
 if (animateSequence) animateChildrenFrom(animateSequence);
+
+const langBtn = document.querySelectorAll(".lang-btn");
+
+if (window.innerWidth < 799) {
+    document.addEventListener("click", e => {
+        let button = e.target.closest('DIV');
+        if (!button?.classList?.contains("lang-btn")) {
+            langBtn.forEach(btn => btn.classList.contains("open") && btn.classList.remove("open"))
+        } else {
+            button.classList.toggle("open");
+        }
+    });
+}
