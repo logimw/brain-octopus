@@ -143,6 +143,7 @@
     opacity: 1;
     z-index: 1;
     visibility: visible;
+    display: block;
     transition: transform 300ms, opacity 300ms ease 100ms;
   }
 
@@ -156,6 +157,7 @@
   &__list {
     position: absolute;
     visibility: hidden;
+    display: none;
     top: 100%;
     left: 0;
     width: 100%;
