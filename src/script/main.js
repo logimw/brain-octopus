@@ -1,3 +1,15 @@
+const cookies = document.querySelector("#cookies");
+const cookiesBtn = document.getElementById("agreement_cookies");
+
+if (cookies) {
+    cookiesBtn.addEventListener("click", e => {
+        console.log(e.target)
+        if (cookies.classList.contains("vanish")) return;
+        cookies.classList.add("vanish");
+    });
+}
+
+
 const swiper = document.querySelector(".swiper");
 
 if (swiper) {
@@ -176,3 +188,4 @@ if (window.innerWidth < 799) {
         }
     });
 }
+

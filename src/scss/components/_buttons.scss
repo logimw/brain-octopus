@@ -97,11 +97,12 @@
   font-weight: bold;
   padding: .75rem 5rem .75rem 2.5rem;
   border-radius: 25px;
-  border: 1px solid $gray;
+  border: 2px solid $gray;
   cursor: pointer;
   position: relative;
   transition: border-radius 300ms ease;
   z-index: 99;
+  width: 124px;
 
   &:hover,
   &.open {
@@ -159,14 +160,14 @@
     visibility: hidden;
     display: none;
     top: 100%;
-    left: 0;
-    width: 100%;
+    left: -2px;
+    width: 124px;
     box-shadow: 1px 1px 1px #333;
     list-style: none;
     border-radius: 0 0 3px 3px;
     transform: translateY(-100%);
     opacity: 0;
-    border: 1px solid $gray;
+    border: 2px solid $gray;
     z-index: -2;
     background-color: $tertiary;
 
@@ -188,8 +189,13 @@
         display: block;
         width: 100%;
         text-align: center;
-        padding: .25rem 0;
-        font-size: 1.1rem;
+        padding: .5rem 0;
+        font-size: 1.2rem;
+
+        @include tablet {
+          font-size: 1.4rem;
+          padding: 1rem;
+        }
 
         &:hover {
           color: $primary;
