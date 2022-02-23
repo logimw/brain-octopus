@@ -26,8 +26,11 @@ if (swiper) {
                 prevEl: `#${slider} .swiper-button-prev`,
             },
             breakpoints: {
-                565: {
+                650: {
                     slidesPerView: 2,
+                },
+                899: {
+                    slidesPerView: 3,
                 },
                 1350: {
                     slidesPerView: 4
@@ -189,3 +192,22 @@ if (window.innerWidth < 799) {
     });
 }
 
+const emailRegex = /^[A-Z0-9_'%=+!`#~$*?^{}&|-]+([\.][A-Z0-9_'%=+!`#~$*?^{}&|-]+)*@[A-Z0-9-]+(\.[A-Z0-9-]+)+$/i;
+const emailInput = document.getElementById("email");
+emailInput && emailInput.addEventListener("input", e => {
+    if (e.target.value.length > 0) {
+        if (emailRegex.test(e.target.value)) {
+            if (emailInput.classList.contains("invalid")) {
+                emailInput.classList.remove("invalid");
+            }
+        } else {
+            if (!emailInput.classList.contains("invalid")) {
+                emailInput.classList.add("invalid");
+            }
+        }
+    } else {
+        if (emailInput.classList.contains("invalid")) {
+            emailInput.classList.remove("invalid");
+        }
+    }
+});
