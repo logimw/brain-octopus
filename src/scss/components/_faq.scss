@@ -20,9 +20,6 @@
     right: -62px;
     transition: background-color 300ms;
 
-    @include desktop {
-      right: -61px;
-    }
     @include tablet {
       right: -57px;
     }
