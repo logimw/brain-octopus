@@ -17,36 +17,40 @@
     display: block;
     background-color: $gray-darkest;
     position: absolute;
-    right: -63px;
+    right: -62px;
     transition: background-color 300ms;
 
+    @include desktop {
+      right: -61px;
+    }
     @include tablet {
       right: -57px;
     }
-    &::before, &::after {
-      background: #00C7FE;
+
+    svg {
+      transition: opacity 300ms ease;
       position: absolute;
-      content: "";
       top: 50%;
-      height: 2px;
-      width: 16px;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 100%;
+      height: 20px;
+      fill: $secondary;
     }
 
-    &::before {
-      transition: transform 300ms ease;
-      transform: scaleX(1) translateX(-50%) translateY(0%) rotate(90deg);
-      left: 50%;
+    &--plus {
+      opacity: 1;
     }
 
-    &::after {
-      transform: translate(-50%, -50%);
-      left: 50%;
+    &--minus {
+      opacity: 0;
     }
   }
 
   &__content {
     max-width: 58rem;
     margin-bottom: 1rem;
+    padding-right: 1rem;
 
     p {
       font-size: 1.4rem;
@@ -83,17 +87,18 @@
     width: 100%;
     min-height: 6rem;
 
-    &:not(:last-child) {
-      //margin-bottom: 1rem;
-    }
-
     &[open] {
       background-color: $gray-dark;
 
       .faq__btn {
         background-color: $gray-dark;
-        &::before {
-          transform: scale(0) translateX(-100%);
+
+        &--plus {
+          opacity: 0;
+        }
+
+        &--minus {
+          opacity: 1;
         }
       }
 
@@ -112,7 +117,7 @@
       display: block;
       width: 65px;
       background-color: $gray-darkest;
-      margin-left: 3px;
+      margin-left: 2px;
       transition: background-color 300ms;
     }
   }
