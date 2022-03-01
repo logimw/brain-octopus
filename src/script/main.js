@@ -193,7 +193,7 @@ if (window.innerWidth < 799) {
 }
 
 const emailRegex = /^[A-Z0-9_'%=+!`#~$*?^{}&|-]+([\.][A-Z0-9_'%=+!`#~$*?^{}&|-]+)*@[A-Z0-9-]+(\.[A-Z0-9-]+)+$/i;
-const emailInput = document.getElementById("email");
+const emailInput = document.querySelector("input[type='email']");
 emailInput && emailInput.addEventListener("input", e => {
     if (e.target.value.length > 0) {
         if (emailRegex.test(e.target.value)) {
