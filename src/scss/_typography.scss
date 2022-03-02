@@ -16,6 +16,51 @@
   src: url('../assets/font/Montserrat/Montserrat-Regular.ttf') format('truetype');
 }
 
+.color-blue {
+  color: $primary;
+}
+.color-white {
+  color: $secondary;
+}
+.color-black {
+  color: $tertiary;
+}
+.color-orange {
+  color: $orange;
+}
+.font-xxxl {
+  font-size: 10rem;
+}
+.font-xxl {
+  font-size: 7rem;
+}
+.font-xl {
+  font-size: 5rem;
+}
+.font-l {
+  font-size: 3rem;
+}
+.font-m {
+  font-size: 2.4rem;
+}
+.font-s {
+  font-size: 1.6rem;
+}
+.d-block {
+  display: block;
+}
+.text-left {
+  text-align: left;
+}
+.text-low {
+  text-transform: unset;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.font-primary {
+  font-family: 'Norwester', sans-serif;
+}
 p {
   color: $secondary;
   font-size: 1.6rem;

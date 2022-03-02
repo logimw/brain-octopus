@@ -3,7 +3,6 @@ const cookiesBtn = document.getElementById("agreement_cookies");
 
 if (cookies) {
     cookiesBtn.addEventListener("click", e => {
-        console.log(e.target)
         if (cookies.classList.contains("vanish")) return;
         cookies.classList.add("vanish");
     });
