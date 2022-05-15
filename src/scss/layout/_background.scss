@@ -18,6 +18,11 @@
 
   @include lg-desktop {
     max-height: unset;
+    height: calc(100vh + 67%);
+  }
+
+  @include desktop {
+    height: auto;
   }
 
   @include tablet {
@@ -34,6 +39,12 @@
 
     @include xl-desktop {
       top: -75%;
+    }
+    @include lg-desktop {
+      top: -125%;
+    }
+    @include desktop {
+      top: -100%;
     }
     @include tablet {
       display: none;
