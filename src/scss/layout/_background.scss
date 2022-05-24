@@ -13,10 +13,6 @@
   overflow: hidden;
 
   @include xl-desktop {
-    height: 100vh;
-  }
-
-  @include lg-desktop {
     max-height: unset;
     height: calc(100vh + 67%);
   }
@@ -38,9 +34,6 @@
     //grid-template-columns: repeat(3, 1fr);
 
     @include xl-desktop {
-      top: -75%;
-    }
-    @include lg-desktop {
       top: -125%;
     }
     @include desktop {
