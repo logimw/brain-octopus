@@ -18,7 +18,12 @@
   }
 
   @include desktop {
+    max-height: 720px;
     height: auto;
+  }
+
+  @include sm-desktop {
+    max-height: unset;
   }
 
   @include tablet {
