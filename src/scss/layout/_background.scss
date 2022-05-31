@@ -7,8 +7,7 @@
   left: 50%;
   top: 0;
   width: 75%;
-  max-height: 85vh;
-  height: calc(100vh - 20rem);
+  max-height: 100vh;
   z-index: -1;
   overflow: hidden;
 
@@ -32,7 +31,7 @@
   }
 
   &.home-header {
-    top: -50%;
+    top: -25rem;
     left: 200px;
     width: 80vw;
     z-index: 10;
