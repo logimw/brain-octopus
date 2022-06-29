@@ -4,22 +4,11 @@
   grid-gap: 1rem;
 
   position: absolute;
-  left: 50%;
   top: 0;
   width: 75%;
   max-height: 100vh;
   z-index: -1;
   overflow: hidden;
-
-  @include xl-desktop {
-    max-height: unset;
-    height: calc(100vh + 67%);
-  }
-
-  @include desktop {
-    max-height: 720px;
-    height: auto;
-  }
 
   @include sm-desktop {
     max-height: unset;
@@ -31,17 +20,17 @@
   }
 
   &.home-header {
-    top: -25rem;
-    left: 200px;
-    width: 80vw;
     z-index: 10;
-    //grid-template-columns: repeat(3, 1fr);
+    top: 0;
+    right: 0;
+    width: 70vw;
+    max-height: 75vh;
 
-    @include xl-desktop {
-      top: -125%;
+    @include lg-desktop {
+    width: 75vw;
     }
-    @include desktop {
-      top: -100%;
+    @include sm-desktop {
+      width: 90vw;
     }
     @include tablet {
       display: none;
