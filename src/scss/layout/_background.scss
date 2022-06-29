@@ -10,7 +10,7 @@
   z-index: -1;
   overflow: hidden;
 
-  @include lg-desktop {
+  @include xl-desktop {
     max-height: 120vh;
   }
 
