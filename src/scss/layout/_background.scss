@@ -29,9 +29,12 @@
     right: 0;
     width: 70vw;
 
+    @include xl-desktop {
+      top: -10vw;
+    }
+
     @include lg-desktop {
       width: 75vw;
-      top: -10vw;
     }
     @include desktop {
       top: -5rem;
