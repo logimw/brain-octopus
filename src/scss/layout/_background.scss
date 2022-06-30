@@ -9,9 +9,16 @@
   max-height: 100vh;
   z-index: -1;
   overflow: hidden;
+  left: 50%;
 
   @include xl-desktop {
     max-height: 120vh;
+    height: calc(100vh + 67%);
+  }
+
+  @include desktop {
+    max-height: 720px;
+    height: auto;
   }
 
   @include sm-desktop {
@@ -26,8 +33,10 @@
   &.home-header {
     z-index: 10;
     top: 0;
+    left: unset;
     right: 0;
     width: 70vw;
+    height: auto;
 
     @include xl-desktop {
       top: -10vw;
